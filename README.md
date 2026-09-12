@@ -9,6 +9,7 @@ into a single skimmable page. Points echoed by many players are flagged
 
 ## Guides
 
-- [Deathwatch](advice/Deathwatch%20-%20Advice.md) - 2026.09.11
+- [Murderwing](advice/Murderwing%20-%20Advice.md) - 2026.04.12 - 2026.09.12
+- [Deathwatch](advice/Deathwatch%20-%20Advice.md) - 2026.04.23 - 2026.09.11
 
 More factions to come.

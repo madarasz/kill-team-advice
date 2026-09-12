@@ -6,8 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A data pipeline (not a conventional app) that turns a Discord channel's history into a
 skimmable Warhammer 40k Kill Team advice document. It has no build/test/lint step — the
-logic lives in three **skills** under `.claude/skills/`, each a stage of one pipeline.
-Working here means running the skills in order, not writing/running code in the usual sense.
+logic lives in **skills** under `.claude/skills/`. Three of them form one pipeline (run in
+order); a fourth (`get-bds-changes`) is a standalone lookup. Working here means running the
+skills, not writing/running code in the usual sense.
 
 ## The three-stage pipeline
 
@@ -31,6 +32,13 @@ and consumes exactly what the previous produced.
 **Invoke the skill rather than reinventing its steps** — each SKILL.md holds hard-won detail
 (correct Discord selectors, the exfiltration trick around the `javascript_tool` output cap,
 the fan-out prompt template). Read the relevant SKILL.md before doing that stage's work.
+
+## Standalone skill (outside the pipeline)
+
+- **`get-bds-changes`** — summarises how Kill Team quarterly Balance Dataslate (BDS) updates
+  changed ONE named team's cards (nerfs, buffs, wording), pulled from the
+  `madarasz/datacard-manager` GitHub repo. Needs the `gh` CLI authenticated. Unrelated to the
+  scrape→chunk→advice flow; use it for balance/patch-history questions about a team.
 
 ## Conventions that span stages
 
