@@ -33,8 +33,19 @@ it was posted. So before merging, the orchestrator gathers:
    `get-bds-changes` does **not** cover, since they aren't on any single team's cards).
    These overtake advice in the **TacOp Selection** section of every team.
 
-Both feed the merge so the orchestrator can flag advice the balance updates have since
-overtaken — see step 3b.
+Both feed the merge so the orchestrator can bring the advice up to the **latest BDS
+state** — see step 3b.
+
+**Core principle: the advice document always reflects the current BDS state.** Every
+section is written as if authored *today*, under the rules in force now. Advice a later
+BDS made obsolete is **rewritten to the current reality or dropped — never shown, not even
+with a caveat**. The document carries **no history at all**: no dated before/after record,
+no "Recent Balance Changes" section, no dates or BDS names anywhere. The balance sources
+below exist only so you can *correct* the advice to the present; once you've applied a
+change, its dated history is discarded, not archived. The logs span many months and will
+contain advice about abilities, ranges, and verdicts that a dataslate has since moved;
+your job at merge is to silently correct them to the present, not to preserve them as
+archaeology.
 
 Turn a pile of chunked Discord chat logs about one Kill Team faction into a single,
 skimmable advice document. The logs are mostly noise (banter, memes, painting talk);
@@ -155,8 +166,9 @@ faithful extraction of what people *said*; handing them balance verdicts would b
 them into inventing or re-weighting advice, and it bloats every batch prompt with the
 same block. The BDS context is the **orchestrator's** to apply once, at merge, where
 it can see all the advice at once and knows each card's current state. (If the BDS
-subagent returns nothing — no `gh` auth, team unresolved — just skip the card-level
-balance annotations and merge as before.)
+subagent returns nothing — no `gh` auth, team unresolved — skip the card-level
+corrections and merge the logs as-is; still apply any in-scope shared-TacOp change from
+`tacops-bds-changes.md`.)
 
 **Also read the bundled `references/tacops-bds-changes.md` directly** (orchestrator,
 no subagent — it's a short, static, dated list of BDS changes to the **shared** TacOps).
@@ -177,21 +189,39 @@ Collect every subagent report and merge into one file named **`<Team> - Advice.m
 - **Resolve names** to the canonical labels one more time (subagents mostly do this,
   but catch stragglers).
 - **Rank within each section** by how strongly the community holds the view (consensus
-  first, contested/ niche later), and surface disagreements honestly ("most say X, but
-  Y argues Z") rather than flattening them.
+  first, contested/ niche later).
+- **Drop fringe opinions — do not display them.** A fringe opinion is a lone voice or
+  tiny minority running against the room's clear consensus, plus one-off anecdotes and
+  single-game results ("one reported win…"). Cut them entirely: state only the consensus
+  verdict, with no "but X argues Z", no "lone dissenter", no named contrarian. Do **not**
+  water the verdict down to accommodate the outlier.
+- **Genuine broad splits (many voices, no consensus) may stay — but never named.** Keep
+  that a split exists ("some lean X; consensus keeps Y", `[warming consensus]`,
+  `[heavily debated]`) while stripping every individual's name from the disagreement. No
+  user is ever named as holding a dissenting or minority view anywhere in the document;
+  recognised authorities belong only in `experts.md`.
 - **Keep it opinionated and concrete.** Reproduce the actual tactical content (breakpoints,
   ranges, ploy interactions, which op kills what), not vague summaries.
-- **Reconcile against both balance sources (step 3b).** For each card the team's BDS
-  history touched, *and* each shared TacOp changed in `references/tacops-bds-changes.md`,
-  check the advice about it. If a BDS nerfed/buffed it *after* the advice was posted, the
-  advice may be stale — the logs might rave about an ability that got cut or a range that
-  shrank, or a TacOp that was reworked. Annotate such advice inline with
-  **[changed by <BDS displayName>: <one-clause what moved>]** and, when the change flips
-  the verdict, say so ("logs love X, but the <date> BDS cut its self-obscure — treat with
-  caution"). The TacOp changes land in the **TacOp Selection** section — apply each only
-  within its scope note (skip a team-specific change for teams it doesn't name). Don't
-  silently delete the advice; the reader benefits from seeing that it predates a
-  nerf/buff. A buff can also *promote* a card the older logs dismissed — flag that too.
+- **Reconcile against both balance sources (step 3b) — correct to the present, don't
+  annotate.** For each card the team's BDS history touched, *and* each shared TacOp
+  changed in `references/tacops-bds-changes.md`, check the advice about it. If a BDS
+  nerfed/buffed it *after* the advice was posted, the advice is stale — the logs might
+  rave about an ability that got cut, a range that shrank, or a TacOp that was reworked.
+  **Rewrite the actionable bullet to state the current rule and current verdict as plain
+  fact**, or drop it if the change killed it outright. Do **not** carry a
+  `[changed by ...]` tag, a "post-nerf" / "post-slate" phrase, a BDS name, or a date
+  anywhere in the document — no dated archaeology at all. Two consequences to
+  get right:
+  - **A nerf that flipped a verdict:** state only the *new* verdict. If the logs say "X is
+    an auto-take" because of an ability the BDS cut, write X at its current standing (e.g.
+    a situational pick) — never "logs love X, but the <date> BDS cut it."
+  - **A buff that promoted a card the older logs dismissed:** rank and describe it at its
+    current strength, as if the logs had always rated it there.
+
+  Apply each shared-TacOp change only within its scope note (skip a team-specific change
+  for teams it doesn't name); TacOp changes land in the **TacOp Selection** section. Once a
+  change is applied, its dated history is discarded — the document keeps no record that a
+  verdict ever moved.
 
 ## Output format
 
@@ -230,23 +260,27 @@ matchups in the middle, worst/near-unwinnable matchups last.>
 
 ## Generic Advice
 <positioning, tempo, target priority, list-building principles, game-review habits.>
-
-## Recent Balance Changes
-<short, dated digest from step 3b — the team's own NERF/BUFF/WORDING card bullets plus
-the in-scope shared-TacOp changes from `references/tacops-bds-changes.md`, the ones that
-matter for how the team plays now, newest last, plus the trajectory takeaway. Omit this
-whole section only if both sources returned nothing for this team.>
 ```
+
+There is **no "Recent Balance Changes" section** — the document carries no dated history.
+The balance sources (step 3b) are used only to correct the sections above to the current
+state; nothing about *what changed or when* appears in the output.
 
 The advice document has **no experts section** — that goes in `experts.md` instead
 (next step).
 
 Notes on the sections:
 - Flag repeated points inline with **[strong consensus]**.
-- "Faction Rule Advice", "Ploys", and "Recent Balance Changes" are conditional —
-  include each only if there's content (logs for the first two; for the last, a
-  non-empty BDS summary *or* an in-scope TacOp change from `tacops-bds-changes.md`);
-  drop the heading otherwise.
+- **No fringe opinions and no named dissent.** Lone/tiny-minority takes against consensus
+  and one-off anecdotes are dropped, not shown; genuine broad splits may be noted but
+  never attributed to a named user (see the merge rule in step 4).
+- **No dated BDS archaeology anywhere in the document.** Every section reads as if written
+  today: no dates, no BDS names, no "post-nerf" / "post-slate" / "used to be" phrasing, no
+  `[changed by ...]` tags, no "Recent Balance Changes" section. State the current rule and
+  current verdict as fact. (`[strong consensus]` and matchup verdicts are fine — those
+  aren't dated history.)
+- "Faction Rule Advice" and "Ploys" are conditional — include each only if the logs have
+  content; drop the heading otherwise.
 - The extraction rule sentence in step 3 is the *method*, not output — don't print it
   in the document.
 
