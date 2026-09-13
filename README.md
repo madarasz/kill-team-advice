@@ -4,8 +4,7 @@ Community-distilled playing advice for Warhammer 40k Kill Team factions.
 
 Each guide gathers what experienced players actually agree on — operative
 picks, matchups, TacOps, equipment, ploys, and general tactics — condensed
-into a single skimmable page. Points echoed by many players are flagged
-**[strong consensus]** so you can tell settled wisdom from one person's take.
+into a single skimmable page.
 
 ## Guides
 

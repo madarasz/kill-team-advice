@@ -22,6 +22,20 @@ This is the final stage of a three-stage pipeline:
 3. **`kill-team-advice-extraction`** (this skill) — fans subagents over the
    `chunks/` that produces and writes `<Team> - Advice.md`.
 
+It also folds in **balance context** from two sources: the logs span many months, and
+a quarterly Balance Dataslate (BDS) can nerf or buff something *after* the advice about
+it was posted. So before merging, the orchestrator gathers:
+
+1. **This team's card history** — via the `get-bds-changes` skill (a subagent; covers
+   the team's own operatives, ploys, equipment, faction rules).
+2. **Shared TacOp changes** — from the bundled `references/tacops-bds-changes.md`
+   (Dominate, Sweep & Clear, etc. are *shared* Seek & Destroy tac ops that
+   `get-bds-changes` does **not** cover, since they aren't on any single team's cards).
+   These overtake advice in the **TacOp Selection** section of every team.
+
+Both feed the merge so the orchestrator can flag advice the balance updates have since
+overtaken — see step 3b.
+
 Turn a pile of chunked Discord chat logs about one Kill Team faction into a single,
 skimmable advice document. The logs are mostly noise (banter, memes, painting talk);
 the value is the minority of messages that say *how to play the team*. The job is to
@@ -119,6 +133,39 @@ Be faithful to the source; do not invent advice. Quote sparingly. Return the ful
 structured report as your final message.
 ```
 
+### 3b. Pull the balance (BDS) history — in parallel with the fan-out
+
+Spawn **one more general-purpose subagent, in the same turn as the step-3 batch
+subagents** (background, parallel — it doesn't touch the chunks, so it costs no extra
+wall-clock). Tell it to run the **`get-bds-changes`** skill for this exact team and
+return the finished categorised summary (the dated NERF/BUFF/WORDING bullets it
+produces). Prompt template:
+
+```
+Run the get-bds-changes skill for the Warhammer 40k Kill Team "<TEAM>".
+Follow that skill's SKILL.md exactly (resolve the team name, run its scripts,
+resolve any REVERT against the official PDF, categorise). Return ONLY the final
+categorised summary: the dated NERF / BUFF / WORDING bullets grouped by BDS
+release, plus the one-line trajectory takeaway. If the `gh` CLI is not
+authenticated or the team can't be resolved, say so plainly and return nothing.
+```
+
+**Do NOT pass this BDS summary down to the step-3 chunk subagents.** Their job is
+faithful extraction of what people *said*; handing them balance verdicts would bias
+them into inventing or re-weighting advice, and it bloats every batch prompt with the
+same block. The BDS context is the **orchestrator's** to apply once, at merge, where
+it can see all the advice at once and knows each card's current state. (If the BDS
+subagent returns nothing — no `gh` auth, team unresolved — just skip the card-level
+balance annotations and merge as before.)
+
+**Also read the bundled `references/tacops-bds-changes.md` directly** (orchestrator,
+no subagent — it's a short, static, dated list of BDS changes to the **shared** TacOps).
+`get-bds-changes` cannot surface these because the shared tac ops live on no single
+team's cards, yet they overtake advice in the **TacOp Selection** section of every team.
+Respect each bullet's scope: a change may carry a note limiting it to specific teams
+(e.g. "only affecting Raveners, omit elsewhere") — apply it only where the note allows,
+and omit it for teams it doesn't touch.
+
 ### 4. Merge into the advice document
 
 Collect every subagent report and merge into one file named **`<Team> - Advice.md`**
@@ -134,6 +181,17 @@ Collect every subagent report and merge into one file named **`<Team> - Advice.m
   Y argues Z") rather than flattening them.
 - **Keep it opinionated and concrete.** Reproduce the actual tactical content (breakpoints,
   ranges, ploy interactions, which op kills what), not vague summaries.
+- **Reconcile against both balance sources (step 3b).** For each card the team's BDS
+  history touched, *and* each shared TacOp changed in `references/tacops-bds-changes.md`,
+  check the advice about it. If a BDS nerfed/buffed it *after* the advice was posted, the
+  advice may be stale — the logs might rave about an ability that got cut or a range that
+  shrank, or a TacOp that was reworked. Annotate such advice inline with
+  **[changed by <BDS displayName>: <one-clause what moved>]** and, when the change flips
+  the verdict, say so ("logs love X, but the <date> BDS cut its self-obscure — treat with
+  caution"). The TacOp changes land in the **TacOp Selection** section — apply each only
+  within its scope note (skip a team-specific change for teams it doesn't name). Don't
+  silently delete the advice; the reader benefits from seeing that it predates a
+  nerf/buff. A buff can also *promote* a card the older logs dismissed — flag that too.
 
 ## Output format
 
@@ -148,16 +206,21 @@ into `## TL;DR`.
 <the handful of things nearly everyone agrees on — the fastest way to get better>
 
 ## Operative Selection
-<per operative: verdict + when/how to use. Auto-includes first, niche/contested last.>
+<per operative: verdict + when/how to use. **Order best→worst**: auto-include /
+always-bring operatives first, niche/contested in the middle, useless/skip ones last.>
 
 ## TacOp Selection
-<per TacOp: verdict + when to pick it.>
-
-## Matchups
-<per enemy team (merged nickname): key advice for that matchup. A table works well.>
+<per TacOp: verdict + when to pick it. **Order best→worst**: strongest picks for this
+team first, trap/never-pick ones last.>
 
 ## Equipment Selection
-<per equipment piece: take-it-or-not + when.>
+<per equipment piece: take-it-or-not + when. **Order best→worst**: staple/always-take
+first, situational in the middle, skip-it ones last.>
+
+## Matchups
+<per enemy team (merged nickname): key advice for that matchup. A table works well.
+**Order best→worst for the team**: matchups the team is favored in first, even/skill
+matchups in the middle, worst/near-unwinnable matchups last.>
 
 ## Faction Rule Advice
 <how to leverage the faction rules. Omit this section entirely if the logs say nothing.>
@@ -168,21 +231,47 @@ into `## TL;DR`.
 ## Generic Advice
 <positioning, tempo, target priority, list-building principles, game-review habits.>
 
-## Core experts
-<ONLY the few recognized authorities — the users whose advice others repeatedly adopt,
-cite, or thank, and who post referenced guides/videos. One line each: name + what
-they're the authority on + evidence of standing. Do NOT include a long roster of every
-contributor or the learners; those tiers are noise.>
+## Recent Balance Changes
+<short, dated digest from step 3b — the team's own NERF/BUFF/WORDING card bullets plus
+the in-scope shared-TacOp changes from `references/tacops-bds-changes.md`, the ones that
+matter for how the team plays now, newest last, plus the trajectory takeaway. Omit this
+whole section only if both sources returned nothing for this team.>
 ```
+
+The advice document has **no experts section** — that goes in `experts.md` instead
+(next step).
 
 Notes on the sections:
 - Flag repeated points inline with **[strong consensus]**.
-- "Faction Rule Advice" and "Ploys" are conditional — include them only if the logs
-  actually contain such advice; drop the heading otherwise.
+- "Faction Rule Advice", "Ploys", and "Recent Balance Changes" are conditional —
+  include each only if there's content (logs for the first two; for the last, a
+  non-empty BDS summary *or* an in-scope TacOp change from `tacops-bds-changes.md`);
+  drop the heading otherwise.
 - The extraction rule sentence in step 3 is the *method*, not output — don't print it
   in the document.
+
+## Experts (separate file, not the advice doc)
+
+The recognized authorities go in the repo-root **`experts.md`**, not in the advice
+document. From the subagents' USER CONTRIBUTIONS tracking, pick ONLY the few authorities —
+the users whose advice others repeatedly adopt, cite, or thank, and who post referenced
+guides/videos. Do NOT include the long roster of every contributor or the learners; those
+tiers are noise.
+
+Append (or update, if the team already has a block) a section to `experts.md` matching the
+existing format there — an H1 with the team name, then one `-` bullet per expert:
+
+```markdown
+# <Team>
+
+- **<Name>** — <what they're the authority on + evidence of standing (agreement, thanks,
+  cited guides/videos, tournament results)>.
+```
+
+Keep one line per expert. If `experts.md` already has a block for this team, replace it;
+otherwise append a new one.
 
 ## Delivering
 
 Create `advice/<Team> - Advice.md` file. Then send it to the user with SendUserFile so they can read it, and give
-the TL;DR contents to the user.
+the TL;DR contents to the user. Update `experts.md` per the section above.
