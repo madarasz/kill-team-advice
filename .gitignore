@@ -1,2 +1,3 @@
 scraped-data
 *.lock
+__pycache__

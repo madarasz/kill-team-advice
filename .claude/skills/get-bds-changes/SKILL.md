@@ -58,6 +58,12 @@ own PDF, which is the source of truth. Run:
 python3 scripts/official_update_log.py "<Team>"
 ```
 
+**The two scripts take different team names.** `bds_changes.py` wants the
+**directory slug** under `data/sets/` (`Chaos_Cult`, underscores — from
+`--list-teams`). `official_update_log.py` wants the **GW download title**
+(`Chaos Cult`, spaces). If it errors `No download titled '…'`, pick the
+space-separated title from the list it prints.
+
 This queries GW's download API, fetches the team's rules PDF, and prints **only
 the UPDATE LOG section** (the authoritative changelog) with formatting preserved:
 
@@ -73,6 +79,13 @@ the UPDATE LOG section** (the authoritative changelog) with formatting preserved
 (This step needs PyMuPDF for strike-aware extraction — `pip install pymupdf` if
 `import fitz` fails. If GW's API/PDF is unreachable, fall back to reporting the
 revert as **UNVERIFIED**.)
+
+**Sanity-check the extracted log is complete.** If the output ends mid-sentence,
+or a team you know has old erratas shows no `PREVIOUS ERRATAS` block, the
+gallery-stop heuristic tripped early and silently truncated the log. As a
+stopgap, dump the update-log page directly: open the PDF with `fitz`, find the
+page whose text contains `UPDATE LOG`, and print `doc[p].get_text()` (plain text
+loses strikes — use it only to confirm what's missing, not for the strike check).
 
 Find the card's entry in that output and compare it to what the datacard diff
 claims. Only read the UPDATE LOG — the datacard pages earlier in the PDF can
@@ -107,6 +120,30 @@ Categories — start every bullet with one:
 Add an adjective on the extent when it's clear: `NERF (major)`, `BUFF (minor)`.
 If a change is genuinely a real rules edit but you can't tell direction, use
 `CHANGE` and explain.
+
+**A magenta number needs its old value before you can call direction.** The
+official log prints the *amended* (new) text only; struck `~~…~~` marks deletions
+but a changed stat gives no direction on its own. `max twice per turning point`
+reads as a change, but is a NERF or BUFF only relative to the previous number.
+Recover the old value from the datacard diff (`bds_changes.py`) when the change
+is inside the diffable window; otherwise label it `CHANGE`. Real case: Mutation
+went `once → twice`, which is a **BUFF** — invisible from the PDF alone, and easy
+to misread as a nerf ("a cap") if you don't dig out the prior value.
+
+### 3.5 Line each official-log entry up to a dated BDS
+The official PDF groups erratas by **month** (`JULY '25`), not by BDS code, so its
+entries aren't dated on their own. To place each change on the timeline:
+
+1. `bds_changes.py` prints each card's `bdsVersion` stamp (the BDS code).
+2. `data/constants.json` (`bds[]`) maps each code → `displayName` + `date`. Fetch
+   with `gh api repos/madarasz/datacard-manager/contents/data/constants.json`.
+3. A month heading ≈ that quarter's Balance Dataslate — `JULY '25` → `2025_Q3`
+   (`2025 Q3 Balance Dataslate`, 2025-07-23). Confirm against the card's stamp.
+
+**Trap:** `bdsVersion` records only the *last* BDS to touch a card, so a card
+errata'd in two releases carries one stamp — an earlier change is invisible.
+`PREVIOUS ERRATAS` entries carry older stamps than the current month's entries;
+that's expected and is how you separate "this quarter" from "still in force".
 
 ### 4. Write the summary
 Group by BDS release, newest concern last (chronological), and **skip any BDS
@@ -150,6 +187,15 @@ nerfed? buffed back into viability?) — but only if it adds something.
   `~~…~~`; do not use `pdftotext` or a generic PDF reader for this check, because
   they drop the strike line and a deleted rule then reads as still in force. This
   is exactly how the Warp Talon self-obscure removal was first missed.
+
+- **The official-log extractor can truncate silently.** `official_update_log.py`
+  stops reading at the orange heading that begins the datacard gallery
+  (`OPERATIVES`, `KILL TEAM`, …). That match now looks at the **orange text
+  only** — matching the whole line would false-trip on black body words like
+  "operatives" sitting next to an orange `CHAOS CULT` keyword, which once cut the
+  Chaos Cult log off at Exaltation in Pain and dropped every `PREVIOUS ERRATAS`
+  entry. If you change that heuristic, re-test on a team whose erratas mention
+  "operatives"/"kill team" and confirm the log runs to the last entry.
 
 - **The first commit is stamp-only.** The file's history starts at some commit;
   changes from that first BDS show only as a `bdsVersion` stamp with no prior text

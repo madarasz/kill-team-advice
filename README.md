@@ -12,5 +12,6 @@ into a single skimmable page.
 - [Blooded](advice/Blooded%20-%20Advice.md) - 2024.01.01 - 2026.09.13
 - [Murderwing](advice/Murderwing%20-%20Advice.md) - 2026.04.12 - 2026.09.12
 - [Deathwatch](advice/Deathwatch%20-%20Advice.md) - 2026.04.23 - 2026.09.11
+- [Chaos Cult](advice/Chaos%20Cult%20-%20Advice.md) - 2025.01.27 - 2026.09.12
 
 More factions to come.

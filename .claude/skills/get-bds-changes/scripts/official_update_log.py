@@ -147,10 +147,17 @@ def extract(path):
         for block in d["blocks"]:
             for line in block.get("lines", []):
                 spans = line["spans"]
-                # Stop at the first orange heading that starts the gallery pages.
                 joined_upper = "".join(s["text"] for s in spans).upper()
-                if any(s["color"] == ORANGE for s in spans) and \
-                   any(h in joined_upper for h in END_HEADINGS):
+                # Stop at the first orange heading that starts the gallery pages.
+                # Match against the ORANGE text only, as a standalone heading — not
+                # a substring of the whole line. Body text carries END words like
+                # "operatives" / "kill team" in black next to an orange "CHAOS CULT"
+                # keyword; a substring test there false-trips and silently truncates
+                # the log mid-entry (dropping PREVIOUS ERRATAS). See traps in SKILL.md.
+                orange_upper = "".join(
+                    s["text"] for s in spans if s["color"] == ORANGE
+                ).strip().upper()
+                if orange_upper and any(h in orange_upper for h in END_HEADINGS):
                     doc.close()
                     return "\n".join(lines_out)
                 # Mark orange headings so entry boundaries are visible.
