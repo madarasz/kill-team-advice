@@ -309,3 +309,19 @@ otherwise append a new one.
 
 Create `advice/<Team> - Advice.md` file. Then send it to the user with SendUserFile so they can read it, and give
 the TL;DR contents to the user. Update `experts.md` per the section above.
+
+Finally, add (or update) the team's entry in the repo-root **`README.md`** under its
+`## Guides` list. Match the existing line format exactly — one `-` bullet per team:
+
+```markdown
+- [<Team>](advice/<Team>%20-%20Advice.md) - <first-date> - <last-date>
+```
+
+- The link text is the team name; the href is `advice/<Team> - Advice.md` with spaces
+  URL-encoded as `%20`.
+- `<first-date>` and `<last-date>` are the date range of the scraped logs (the timestamp
+  of the earliest and latest message), formatted `YYYY.MM.DD`. Derive them from the source
+  JSONL `ts` fields (or the transcript/manifest range) — not today's date. Leave the
+  trailing `More factions to come.` line in place.
+- If the team already has a line, replace it (refresh the date range); otherwise append a
+  new bullet to the list.

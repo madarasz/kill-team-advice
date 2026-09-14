@@ -25,3 +25,10 @@
 - **David, Vespid Queen** — holds a World Championship ticket won with a contrarian all-shooty Intercessor list; the authority on the shooty playstyle and Hardy/Mobile pairing. Others (Nick Whitfield) ask to learn his style; Worlds credibility cited by name.
 - **Ej** — the rules + equipment reference (doctrine/ploy timing, Sharpshooter-on-Guard, Astartes double-act, "never take plain Warriors," Plant-Banner-vs-Dominate rule of thumb). His clarifications are adopted unchallenged.
 - **Joe - Vox Scream** — won the Cherokee Open (two Golden Tickets) with Hardy/Resolute AoD, then shared the podcast breakdown; his "5 attacks across the board + Tilting Shields + flexibility" summary is a headline takeaway others quote.
+
+# Blooded
+
+- **kid0krew** — by a wide margin the channel's authority ("the Sage One," "papa blooded"); ~150 games and the most-cited voice in every category. Author of the much-requested Blooded overview guide (DM'd to 20+ players, credited with giving people their first wins) and cited on a Kill Team podcast. Tournament record includes a 48-player GT win (6-0), LVO 5-2, AvTT 6-1, Tacoma Open 5-1, and Worlds attendance. His token-on-Commsman, TP3-go-turn, and "play for points" lines are the community's core doctrine.
+- **LaMa_RaMa** — the second voice, a top-ranked local player who consistently corroborates and expands kid0krew's takes with long matchup and loadout write-ups (Ogryn tempo, Flenser-as-Dark-Favour, drug sequencing). Multiple 2nd/5th-place tournament finishes.
+- **Smokeygacious** — prolific matchup specialist (Fellgor, Goremongers, Death Korp, Stealth Suits) and faction-mechanics teacher; the Accurate-in-melee tip visibly changed how others valued the team, and his anti-Mandrakes advice helped a player place 6th. Took Blooded to the top real-count win rate in his league.
+- **Daylovich** — the de-facto rules authority (Gaze vs Tilting Shields/Nightmare Shroud, Callous Disregard + Obscuring, token management, marker-drop interactions); repeatedly the accepted final word, streamed on tournament coverage, 4-3 Tacoma Open.
