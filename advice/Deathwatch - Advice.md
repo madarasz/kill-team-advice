@@ -103,13 +103,21 @@ Multi-word operatives are abbreviated in chat: Horde-Slayer = **HS**, Blademaste
 ## Ploys
 
 - **Command Reroll** (universal) is the reliable pick — spend most CP here; DW's core weakness is dice inconsistency. **[strong consensus]**
+- **Omni-scramble** (Disruptor's rule, functionally the team's best "ploy") — locks a model from being activated OR acting for D6 activations; stops free-action ploys, Seize-the-Initiative shots, bomb squigs. Stronger as an aggressive tool (split the enemy, shut down a table half) than defensive. **[strong consensus]**
+
+### Strategic Ploys
+
 - **Mission Tactics** — a TP3/4 closer that telegraphs intent; also a *defensive* tool (balanced-on-retaliate → ~60% crit Aegis, more BM preparry dice). But engage makes you more shootable — pick conceal vs Lethal-5 teams (Wolf Scouts).
 - **The Long Vigil** — "pretty much always worth it"; triggers easily for defensive save-rerolls; lets you hang back and dare the opponent out. Needs "wholly within" — announce it out loud.
 - **The Shield That Slays** — rarely worth it (also needs "wholly within"); only clearly good vs shotgun teams or into power weapons if you can't push 2 crits through.
+- **And They Shall Know No Fear** — Don't reflexively spend it, though: skip it on a model that'll die outright anyway (melta) or that's barely threatened.
+
+### Firefight Ploys
+
 - **Advanced Auspex Scan** (Disruptor) — grants Saturate, strips the target's cover save, and lets you shoot out of your own smoke (turns off obscuring both ways). Free if the Disruptor already sees the target and isn't in enemy control range. A top ploy — smoke yourself and dare someone to look at you.
 - **Auspicator Tracking** — order-swap on counteract; a standing threat that makes opponents back off / lets you flip to engage-and-shoot.
 - **Suffer Not the Alien** — free vs Xenos (Wreckas, Salvagers, Canoptek, etc.); Lethal-5 on retaliation fishes for crits.
-- **Omni-scramble** (Disruptor's rule, functionally the team's best "ploy") — locks a model from being activated OR acting for D6 activations; stops free-action ploys, Seize-the-Initiative shots, bomb squigs. Stronger as an aggressive tool (split the enemy, shut down a table half) than defensive. **[strong consensus]**
+- **Transhuman Physiology** — a reactive defensive tool: fire it to survive a heavy hit (plasma) or scrape through on low HP, and to soak while trading off an operative you've already extracted value from (e.g. the Sergeant after his strat-ploy CP).
 
 ## Generic Advice
 

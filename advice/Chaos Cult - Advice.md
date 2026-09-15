@@ -89,15 +89,21 @@ Ordered roughly best → worst for Chaos Cult.
 
 ## Ploys
 
+- **CP economy is tight** (Fervent + Sickening + double-fight + blow-up runs ~6–9 CP a game). Bank CP TP1–2; don't reflexively fire Sickening/Exaltation every turn — spend on the blow-up, the -APL, and the fight-twice.
+
+### Strategic Ploys
+
 - **Fervent Onslaught — near-auto on every go-turn.** [strong consensus] Grants Accurate (Accurate 2 to Mutants/Torments), so everyone lands two guaranteed hits — a huge Torment output boost. Take the accurate dice on high-wound targets; fish for crits (Ceaseless/Rending) only when you don't need the guaranteed damage.
+- **Creatures of Nightmare (-1 APL) — high-impact; "wins games."** Also forces an extra enemy body onto a point to contest it.
 - **Sickening Aura (-1 to hit within 2" of a Mutant/Torment) — core on your damage turn,** but the most skippable when CP is tight; drop it against accurate teams and melee ops immune to it.
+- **Exaltation in Pain — narrow: injured operatives ignore the Hit-stat penalty.** Rarely worth it, since Sinewed usually already covers that and the team is CP-hungry.
+
+### Firefight Ploys
+
 - **Unleash the Daemon — your pseudo-third AP.** [strong consensus] Free fight with no requirement to have fought first: charge (or open a door), then fight; you can even charge-fight while stunned. The double-fight into two chipped Marines (add Barbed) is a key damage engine. Use it *before* the fight — no retroactive refund — and be wary vs counterattack teams.
 - **Frenzied Demise — too important to skip.** [strong consensus] The death explosion is applied *before* the model is removed, so it can score Rout/Dominate and even finish the ploy target or a model you weren't fighting. Factor ~1 expected mortal into your kill math.
-- **Creatures of Nightmare (-1 APL) — high-impact; "wins games."** Also forces an extra enemy body onto a point to contest it.
 - **Faithful Follower ("get down Mr President") — a Devotee tanks a hit for a key piece;** always keep one near the Mindwitch/Iconarch. Note it only *treats* the follower as in control range, so it does **not** grant combat support to the original target, and a Torment protected this way does **not** project Sickening Aura's -1 from the follower's position.
 - **Abhorrent Mutation — grant the situational gift (Barbed/Wings/Fleet) to the one Torment that needs it,** rather than baking it in; also to give a Devotee Wings for a last-activation objective grab.
-- **Exaltation in Pain — narrow: injured operatives ignore the Hit-stat penalty.** Rarely worth it, since Sinewed usually already covers that and the team is CP-hungry.
-- **CP economy is tight** (Fervent + Sickening + double-fight + blow-up runs ~6–9 CP a game). Bank CP TP1–2; don't reflexively fire Sickening/Exaltation every turn — spend on the blow-up, the -APL, and the fight-twice.
 
 ## Generic Advice
 

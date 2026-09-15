@@ -95,15 +95,21 @@ Ordered roughly best → worst for Raveners. Merge nicknames to one label.
 
 ## Ploys
 
+- **CP economy: you're CP-rich** (few strong ploys, and you give initiative to bank CP), so lean on Command Re-rolls for key fights — but save CP TP1–2 and don't blow it all on defence re-rolls.
+
+### Strategic Ploys
+
 - **Tunnel Lurkers — near-auto every turn.** Makes you a non-valid target on the tunnel unless the enemy comes within 2" (it is *not* a cover save — don't misplay it as one). It's how you don't get shot in the first place and how you force Tremorscythe interrupts. [strong consensus]
 - **Death From Below — a "go-turn" ploy, not a staple; use TP3–4.** Grants Balanced when you unburrow/leave the tunnel and Ceaseless while on the tunnel (you get **both** if you burrow onto the tunnel and fight). Only applies when *you* fight, never on retaliation, and only that activation. Often a plain double-fight is better value. [strong consensus it's over-rated off the tunnel]
 - **Whipcord Emergence — your defensive backup, but much weaker now.** It re-rolls one chosen defence-dice result value, not any of your defence dice, so a 5+ save with it is only a modest help — no longer close to Relentless. Keep it for when you must be near the tunnel against a shooty team, but don't build your survival around it; positioning and Tunnel Lurkers matter more.
 - **Writhe Out of Sight — your escape/safety valve.** In the strategy phase, when a bug is within 2" of the tunnel, it gets its **full** move/fall-back to reach the line, then a free burrow (you must be able to burrow). Use it to pull an over-extended or wounded bug to safety after an aggressive last-activation score, and to rotate injured bugs back to heal. Stage aggressively knowing you can Writhe if you lose initiative.
+
+### Firefight Ploys
+
 - **Slithering Evasion — 1 CP and an AP (not a free charge).** Makes Fall Back a 1-AP action so you can burrow away, or charge out of the control range of the bug you started in — great for slipping past shield walls to reach a backline (Exaction can't deny it) or leaving a frenzied model to die. Best on the Venomspitter.
 - **Subterranean Horror — fight-first on the tunnel.** You resolve first (works vs Guard and Repress), but it's still retaliation so no Death From Below re-rolls. Remember it when charged on the tunnel and to kill a Fellgor in-activation.
 - **Burrowing Strike — core chip engine.** Hits everyone in your control range as you burrow (~D3+1, min 2, once per turn, requires burrowing up in the strategy phase); enemies clump for it. Double-fight turns come from Burrowing Strike + Death From Below. Can't combo with Toxic Lunge or while Writhing.
 - **Death Frenzy — bank a CP for it**, especially vs Goremongers / to shift a breakpoint on death; a dying bug still can't score its Dominate tokens.
-- **CP economy: you're CP-rich** (few strong ploys, and you give initiative to bank CP), so lean on Command Re-rolls for key fights — but save CP TP1–2 and don't blow it all on defence re-rolls.
 
 ## Generic Advice
 

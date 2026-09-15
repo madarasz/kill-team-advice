@@ -95,13 +95,18 @@ MW favors marker/mobile ones — Transmission, Stake Claim, Energy Cells, Loot, 
 
 ## Ploys
 
-- **Wings of Darkness — the standout A/S-tier ploy.** 9" boost reposition (+3"), enables the Curseclaw ~9"+dash Snatch ("charging on Conceal"), late-turn Flank scoring, dropping snatched ops into your Lord's control range, and repositioning to safety after a fight/shoot. The key enabler of the whole toolkit. **[strong consensus]**
-- **Long Forgotten Honour — the signature save.** Strike-on-death saves your melta/key models — but it needs crits (usually 2, or 1 on a fight), it ends the fight (all attack dice discarded), and you can only boost the fall-back in your own activation. Bait it with Huntmaster/Champion/Warp Talon to make crits easier; stage likely LFH ops up front when you lose initiative. Mostly useless vs pure shooting. FAQ bars the Warp Talon from it. **[strong consensus]**
-- **Nightmare on High — a top strategy ploy vs shooting teams** (balanced defense, reroll all TP save CP and damage), great with a cover save. Needs the 6" charge to enable, so some rate it lower.
+### Strategic Ploys
+
 - **Predators Above — best strat ploy, but only worth it when you'll land at least one (ideally two) boosts.** With 6" charges rarely triggering it, most hold the CP as a command reroll (for the melta or Depredator). The defensive reroll-on-boost half is great easy value in full-send play. Can force rerolls onto AoD.
-- **Malicious Narcissism — guarantees 2nd-to-last activation at best; save it for the plasma gunner, to grab a crit point safely, or to punish an exposed op.** Strongest vs *horde* teams (freezes them up), weak vs elites (a normal pass is often better). The first MN of a TP sets the course.
+- **Nightmare on High — a top strategy ploy vs shooting teams** (balanced defense, reroll all TP save CP and damage), great with a cover save. Needs the 6" charge to enable, so some rate it lower.
 - **Instil Fear — situational; applies to every enemy normal die of 3+ damage, but only while you fight (not retaliate), and only vs teams WITHOUT Lethal 5+, rending, or 3+ melee damage.** Best with 2-3 charges lined up. Doesn't reduce Damnation-roll damage.
 - **Cull the Weak — niche, mostly vs melee/high-wound teams** — shoot stunned/wounded targets (esp. bolt pistols from vantage) to double-tap. Triggers only on the enemy's Fight action (not retaliation), checked at the *start* of your activation. Widely called overly conditional.
+
+### Firefight Ploys
+
+- **Wings of Darkness — the standout A/S-tier ploy.** 9" boost reposition (+3"), enables the Curseclaw ~9"+dash Snatch ("charging on Conceal"), late-turn Flank scoring, dropping snatched ops into your Lord's control range, and repositioning to safety after a fight/shoot. The key enabler of the whole toolkit. **[strong consensus]**
+- **Long Forgotten Honour — the signature save.** Strike-on-death saves your melta/key models — but it needs crits (usually 2, or 1 on a fight), it ends the fight (all attack dice discarded), and you can only boost the fall-back in your own activation. Bait it with Huntmaster/Champion/Warp Talon to make crits easier; stage likely LFH ops up front when you lose initiative. Mostly useless vs pure shooting. FAQ bars the Warp Talon from it. **[strong consensus]**
+- **Malicious Narcissism — guarantees 2nd-to-last activation at best; save it for the plasma gunner, to grab a crit point safely, or to punish an exposed op.** Strongest vs *horde* teams (freezes them up), weak vs elites (a normal pass is often better). The first MN of a TP sets the course.
 - **Murderous Descent — effectively a dead ploy.** Must be on Engage (can't flip from Conceal on an interrupt), needs heavy setup (barricades each side, 2" above, switching rooms). The one working line: smoke on your feet on an objective/vantage so the enemy either comes within 2" (→ you charge) or takes an obscured shot; can also bait a Stealth-Suit retro-thrust. Best on ITD to stop room entry. Most say "Descent never." **[strong consensus it's the worst ploy]**
 
 ## Generic Advice

@@ -130,7 +130,8 @@ Categorize each advice item into exactly one of:
 3. MATCHUPS — how to play against a specific enemy team (name the enemy).
 4. EQUIPMENT — which equipment to take and when.
 5. FACTION RULE — how to use the team's faction rules.
-6. PLOYS — how to use strategy/firefight ploys.
+6. PLOYS — how to use strategy/firefight ploys (name the ploy, and say whether it is a
+   Strategy or Firefight ploy if you can tell).
 7. GENERIC — general play/positioning/tempo advice.
 
 For each advice item give: category, the advice (1–2 sentences), the username who
@@ -256,7 +257,17 @@ matchups in the middle, worst/near-unwinnable matchups last.>
 <how to leverage the faction rules. Omit this section entirely if the logs say nothing.>
 
 ## Ploys
-<how to use strategy/firefight ploys well. Omit if nothing.>
+<Split into the two subsections below. Classify each ploy as strategy or firefight
+using `references/teams-and-tacops.md` (the team's **Strategy Ploys** vs **Firefight
+Ploys** lists). Universal ploys (Command Re-roll) and team *rules* that function like a
+ploy go as plain bullets directly under `## Ploys`, above the subsections. Omit the whole
+section if the logs say nothing; drop an empty subsection.>
+
+### Strategic Ploys
+<per strategy ploy: how to use it well. **Order best→worst.**>
+
+### Firefight Ploys
+<per firefight ploy: how to use it well. **Order best→worst.**>
 
 ## Generic Advice
 <positioning, tempo, target priority, list-building principles, game-review habits.>
@@ -280,7 +291,9 @@ Notes on the sections:
   current verdict as fact. (`[strong consensus]` and matchup verdicts are fine — those
   aren't dated history.)
 - "Faction Rule Advice" and "Ploys" are conditional — include each only if the logs have
-  content; drop the heading otherwise.
+  content; drop the heading otherwise. Under "Ploys", split the ploy bullets into
+  `### Strategic Ploys` and `### Firefight Ploys`, classifying each against the team's
+  Strategy/Firefight lists in `references/teams-and-tacops.md`; drop an empty subsection.
 - The extraction rule sentence in step 3 is the *method*, not output — don't print it
   in the document.
 

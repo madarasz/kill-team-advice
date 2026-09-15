@@ -97,12 +97,19 @@
 
 ## Ploys
 
-- **Wrath of Vengeance — "the best tool AoD has," play it most turning points.** The key Mobile enabler: fall back on counteract and shoot (or dash 2" more for an Eliminator shot), or hop back and blast an unactivated enemy. Wait to see the fight/shoot result before declaring the reposition. The Captain can play it for free via his ability.
+### Strategic Ploys
+
 - **Combat Doctrine + free Adjust:** always run **Tactical** (Purity Seals already make melee consistent); pay for a doctrine in the strategy phase (TP3 basically always, TP2 sometimes), then use the Captain's free swap so you have Balanced whenever you act. Adjust Doctrine (firefight) ≠ Adaptive Tactics (strategy-phase secondary-tactic swap) — don't confuse them.
 - **And They Shall Know No Fear — underrated.** AoD are bulky enough to keep operating on 1–2 wounds; fall-back-for-1-and-shoot combos with Mobile to keep a near-dead Intercessor working. Play it TP3/4.
-- **Transhuman Physiology** — can be used to make a cover save vs a crit; a big reason Hardy isn't essential (tank the first big hit per TP for 1 CP).
-- **Shock Assault** — key-kill/two-tap tool; the Captain gets it effectively free. It triggers once per Fight action (one sequence), and you only need to *retain* a crit (not land the hit) to apply the stun; can be saved for the second Fight of a multi-charge activation.
+- **Adaptive Tactics — solid, plan a turn ahead.** Swaps your secondary chapter tactic, but it's strategy-phase-only (1 CP), so you can't spring it mid-firefight — stage for it in advance (push aggressively or position backups to cover likely charge lanes). Also quietly devalues enemy Stun Grenades: having the option to adapt into an anti-stun tactic next turn limits how much a stun is worth spending on your operatives.
 - **Indomitus — mostly bad. [near-consensus]** With a 3+ save you must fail 2+ dice for it to matter; spend CP reactively on a re-roll or ignore-injury instead. Genuinely good only vs Mandrakes (~4+ save) and low-piercing high-volume teams (Scouts, Ratlings).
+
+### Firefight Ploys
+
+- **Wrath of Vengeance — "the best tool AoD has," play it most turning points.** The key Mobile enabler: fall back on counteract and shoot (or dash 2" more for an Eliminator shot), or hop back and blast an unactivated enemy. Wait to see the fight/shoot result before declaring the reposition. The Captain can play it for free via his ability.
+- **Shock Assault** — key-kill/two-tap tool; the Captain gets it effectively free. It triggers once per Fight action (one sequence), and you only need to *retain* a crit (not land the hit) to apply the stun; can be saved for the second Fight of a multi-charge activation.
+- **Transhuman Physiology** — can be used to make a cover save vs a crit; a big reason Hardy isn't essential (tank the first big hit per TP for 1 CP).
+- **Adjust Doctrine — key flexibility tool. [strong consensus]** Requires Combat Doctrine already played this TP (as a strategy ploy, or free via the Captain); then swaps doctrine again during a friendly operative's activation (not during a counteraction, retaliation, or the opponent's activation) instead of locking it in for the whole TP back in the strategy phase. The Captain plays it for free, letting you delay committing to a doctrine until you've seen how the TP is going — but his free option is mutually exclusive with a free secondary-tactic swap or another free firefight ploy per activation, so pick one. Sergeants can also pay 1 CP for it once the Captain is dead. One of AoD's few built-in melee counters alongside Tilting Shields.
 
 ## Generic Advice
 

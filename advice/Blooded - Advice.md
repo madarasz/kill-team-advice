@@ -102,11 +102,17 @@
 
 ## Ploys
 
+### Strategic Ploys
+
 - **Glory Kill — "goated" in the elite meta. [strong consensus]** Grants relentless (e.g. make the melta relentless) to turn your 4+ gunners into real marine-killers, and it targets **any enemy operative** (no line-of-sight requirement). Reckless Aspirant + Gaze + Glory Kill is as reliable a kill as Blooded can manufacture.
 - **Bitter Demise — an MVP.** On-death explosion that's much better TP3–4 when most models carry tokens (detonates on a 2 or 3, not just a 3); has put ~10 damage through in a turn. It triggers the Dominate token (you gain it, though you can't score while dead) but a Bitter Demise kill does **not** grant a kill-op VP (the damage is the ploy's, not your operative's) — Explosive Demise *does* count. Stacks with the Grenadier for a "double boom of death."
-- **Moment of Repute — use it whenever possible.** +1 APL to a gazed op: charge → fight → pay CP to throw a krak. It doesn't persist to scoring/end of turn, so don't rely on it for end-of-turn objectives.
 - **Reckless Aspirant** — grants Punishing (not a second auto-crit); with Gaze that's an auto-crit + auto-normal, enough to kill most ≤10W models in melee. Best on token-holders, TP2 onward, when you have initiative and a krak/charge play; it has fallen off somewhat in the elite meta where you often can't reach enemy territory.
+- **Malevolent Grit — weakest of the four, rarely worth the CP.** Considered underwhelming next to a glass-cannon approach; the CP is better spent on Glory Kill, Bitter Demise, or Reckless Aspirant.
+
+### Firefight Ploys
+
 - **Dark Favour (GDMP) — the best bodyguard ploy in the game.** Redirect incoming hits to a token-holder to make a lesser model eat the first-activation damage and to bork enemy double-kills; use the Ogryn or Flenser as the redirect roadblock. The recipient no longer needs to lack a token. Can't be used through Volkus doors (no visibility). Keep ops within 3" to set it up.
+- **Moment of Repute — use it whenever possible.** +1 APL to a gazed op: charge → fight → pay CP to throw a krak. It doesn't persist to scoring/end of turn, so don't rely on it for end-of-turn objectives.
 - **Callous Disregard** — shoot into combat; the discarded "fail" dice deal damage equal to their dice numbers (not normal hits), so that damage is **not** reduced by FNP or the Thug's ability, and Obscuring discards never hurt your own operative. Pairs with the Ogryn to finish a target and to shoot shields (e.g. Exaction Subductors).
 - **Reward Earned — near-useless; don't take it.** You already generate kill/death/comms tokens, so you never need the extra one, and the CP is always better spent on Moment of Repute, Dark Favour, Callous Disregard, or Bitter Demise. **[strong consensus]**
 
