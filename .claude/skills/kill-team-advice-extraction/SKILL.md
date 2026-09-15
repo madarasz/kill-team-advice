@@ -137,6 +137,15 @@ Categorize each advice item into exactly one of:
 For each advice item give: category, the advice (1–2 sentences), the username who
 said it, and whether others echoed/agreed (note repetition explicitly).
 
+Also tag each item's BOARD DEPENDENCE, so a Terrain section can be built later:
+- CLOSE if it only holds on close boards (Tomb World / TW, Gallowdark / Into the
+  Dark / ItD, corridors, hatchways).
+- OPEN if it only holds on open boards (Volkus, Octarius, vantage, oil rig).
+- Do not ever tag anything related to Bheta-Decima
+- (leave untagged if it applies regardless of terrain).
+Only tag CLOSE/OPEN when the advice genuinely *changes* with the board — not merely
+because it was said during a game on that board.
+
 Also track USER CONTRIBUTIONS: per username, how many advice items they gave and any
 positive feedback/agreement they received (thanks, "great tip", others adopting it,
 cited guides/videos).
@@ -269,6 +278,13 @@ section if the logs say nothing; drop an empty subsection.>
 ### Firefight Ploys
 <per firefight ploy: how to use it well. **Order best→worst.**>
 
+## Terrain
+<board-specific advice, split by terrain family. Two subsections:
+ `### Volkus / Octarius (open)` and `### Tomb World / Gallowdark (close quarters)`.
+Single-level bullets under each. ONLY put advice that genuinely changes with the
+board here; omit the section, or either subsection, if the logs say nothing
+board-specific.>
+
 ## Generic Advice
 <positioning, tempo, target priority, list-building principles, game-review habits.>
 ```
@@ -294,6 +310,25 @@ Notes on the sections:
   content; drop the heading otherwise. Under "Ploys", split the ploy bullets into
   `### Strategic Ploys` and `### Firefight Ploys`, classifying each against the team's
   Strategy/Firefight lists in `references/teams-and-tacops.md`; drop an empty subsection.
+- **"Terrain" is board-specific advice only, and must not repeat the rest of the doc.**
+  Two subsections —  `### Volkus / Octarius (open)` (aliases: open, vantage, high ground,  oil rig/pump) and `### Tomb World / Gallowdark (close quarters)` (aliases: TW, ItD, Into
+  the Dark, corridors, hatchways, ship interior; treat the two close sets as one merged
+  topic). A bullet earns a place here **only if the advice genuinely changes with
+  the board** (e.g. an operative/equipment/ploy/TacOp that is good *because* of close
+  corridors or open vantage, a positioning rule that only holds on that board family, a
+  matchup line whose verdict flips by board). **Cut generic advice** (anything true
+  regardless of terrain belongs in its own section), and **do not restate** a point already
+  made elsewhere — extract the terrain-specific sub-clause instead of copying the whole
+  bullet. Single-level bullets. Disregard any board the user tells you to ignore, and any
+  board outside these two families (e.g. Bheta-Decima) unless the user asks for it. Omit the
+  section, or either subsection, when the logs hold nothing board-specific.
+- **Never abbreviate a team's own Operatives, Equipment, or Ploys in the output document —
+  always write the full canonical name** ("Horde-Slayer", not "HS"; "The Shield That Slays",
+  not "StS"; "Servo-Thrall", not "thrall"). The chat aliases and initialisms exist only so
+  the subagents can *recognise and normalise* messy chat text (step 2); the merged document
+  always spells them out in full. Do not add a "abbreviated in chat" legend line. (Enemy-team
+  merged nicknames like "Stealth Suits" stay as chosen in the alias map — this rule is about
+  the team's own cards.)
 - The extraction rule sentence in step 3 is the *method*, not output — don't print it
   in the document.
 

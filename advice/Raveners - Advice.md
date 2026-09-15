@@ -111,6 +111,34 @@ Ordered roughly best → worst for Raveners. Merge nicknames to one label.
 - **Burrowing Strike — core chip engine.** Hits everyone in your control range as you burrow (~D3+1, min 2, once per turn, requires burrowing up in the strategy phase); enemies clump for it. Double-fight turns come from Burrowing Strike + Death From Below. Can't combo with Toxic Lunge or while Writhing.
 - **Death Frenzy — bank a CP for it**, especially vs Goremongers / to shift a breakpoint on death; a dying bug still can't score its Dominate tokens.
 
+## Terrain
+
+### Volkus / Octarius (open)
+
+- **Vantage is what turns your hard matchups into your worst ones.** Any team that can BS-shoot from high ground — Deathwatch, Murderwing, Wrecka Krew, Aquilons/Kasrkin, Vespid — is far more dangerous here than in close quarters: they camp vantage, strip your Tunnel Lurkers light cover with Saturate, and stay unreachable while scoring. Pressure their home early, and consider Sweep & Clear or Plant Devices against vantage-banner campers. [strong consensus]
+- **The Ravener Prime and Ravener Felltalon are too tall to end a move under most vantage ceilings — only the Ravener Wrecker, Ravener Venomspitter, and (sometimes) Ravener Tremorscythe fit.** Plan burrow spots around it: park the Wrecker or Venomspitter on objectives that sit under vantage, and against Exodites tunnel *under* vantage on purpose since their dinos can't follow. [strong consensus]
+- **Ladders are an open-board staple and near-dead weight on close quarters.** Take them to reach or deny vantage, kill enemy "floor is lava" and vantage-banner play, and — placed within ~40mm+1" of the tunnel line — to climb straight up after burrowing (cancelling the -2" unburrow move). [strong consensus]
+- **Double cover (Chromatospore Camouflage) is weak on Volkus** — it doesn't stack with a vantage's own cover benefit and does nothing when you're shot down from vantage. Prefer razor wire over barricades here.
+- **Don't strand the Ravener Venomspitter on vantage — it just gets deleted.** Keep it near the tunnel to extend threat range; the one exception is running it up a vantage on TP1 to threaten enemy banner spots, then dropping back out of line of sight.
+- **A heavy barricade on your home objective is especially valuable here**, because easy enemy vantage access threatens home — sit on the tunnel behind it.
+- **The Ravener Tremorscythe charging onto a vantage enemy from Conceal** is a strong play that only exists on open, high-ground boards.
+- **Cut the tunnel through stronghold corners** to guarantee an emergence point on either side, and watch that an enemy base doesn't body-block your exit when you surface just inside a stronghold.
+- **Rout and Track Enemy are harder on open boards** — wide lanes and vantage let the enemy stay out of Rout range or deny a valid Track target from high ground.
+
+### Tomb World / Gallowdark (close quarters)
+
+- **The tunnel measures and burrows straight through Gallowdark / Into the Dark walls — skip doors entirely and pop directly into rooms.** This is the tunnel's best board family. Exception: it cannot pass Tomb World noctolith walls, so route around them there. [strong consensus]
+- **Run the tunnel past doors and hatchways to farm Ravener Tremorscythe interrupts.** Moving through a door costs a minimum of ~3", forcing enemies over the 2" threshold — even Vespid (can't fly through hatchways) and Murderwing (must walk before boosting) trigger Subterranean Ambush. Burrow up and hatchway-fight from Conceal by treating the charge as a reposition. [strong consensus]
+- **Thread the tunnel through different rooms and hug board edges.** Zigzag so you keep pop-up options on both sides of each wall (cut diagonally across a wall to choose which room you surface in); never run it into the center of a big room — you get crunched from three sides.
+- **Tunnel Lurkers is far stronger here** — enemies can't hide on vantage, the light cover is more efficient, and you can kill several models clumped behind one door at once. Doubling bugs up in a small room leaves the enemy no space to move without triggering the Ravener Tremorscythe.
+- **Placeable equipment lets you cage the board and tunnel under it** — but doors and breachable walls count as access points, so placement is restricted. Razor wire in front of a door blocks passage (drop a barricade on the far side if they clear it); take barricades on close boards, not Volkus.
+- **Mines actually bite here**: narrow doors plus pillars force even small bases into a mine's control range (they simply dodge on Volkus, which has no pillars). Wall off teleporter rows on Tomb World to stop enemy teleport-drops.
+- **Ravener Venomspitter door-frame trick**: park it just outside 1" of a door with the base offset to draw obscuring from the frame while on the tunnel (obscuring + double cover), or pre-sit it in a doorway so it flips to Engage and shoots with no move, beating Guard.
+- **Teleport pads are Vantage, not killzone floor** — you can't be on the tunnel and on a pad at once, and big bases often can't emerge on them; the only use is base-touching a pad while on the tunnel to deny it.
+- **Track Enemy scores better here** — elites voluntarily go on Guard, leaving more valid targets; block enemy banner spots with the tunnel and bodies.
+- **Several hard matchups ease off in close quarters** — Canoptek (their matrix can't be measured through walls and they're less mobile), Murderwing (shorter charge threat), Plague Marines (tunnel-reinforce to gang up on isolated marines). But Plant Banner is oppressive in Into the Dark / Tomb World: opponents wall off and guard the banner, so keep the tunnel toward mid to contest.
+- **On Descent (Tomb World two-board) maps, pick the level with two objectives** and place the tunnel on the descent markers so you can burrow then charge across to the other board.
+
 ## Generic Advice
 
 - **"Don't get shot" is the discipline.** ~18 wounds and a 5+ with no defensive re-roll dies to two shots reliably — always ask "does this team have Saturate?" and avoid presenting a shot at all. Getting shot more than once on TP2 means you played too aggressively. [strong consensus]

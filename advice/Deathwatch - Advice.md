@@ -119,6 +119,37 @@ Multi-word operatives are abbreviated in chat: Horde-Slayer = **HS**, Blademaste
 - **Suffer Not the Alien** — free vs Xenos (Wreckas, Salvagers, Canoptek, etc.); Lethal-5 on retaliation fishes for crits.
 - **Transhuman Physiology** — a reactive defensive tool: fire it to survive a heavy hit (plasma) or scrape through on low HP, and to soak while trading off an operative you've already extracted value from (e.g. the Sergeant after his strat-ploy CP).
 
+## Terrain
+
+### Volkus / Octarius (open)
+
+- Get your shooters onto vantage — it's where open-board Deathwatch lives — but don't camp one perch all game; keep them able to reposition to home/mid.
+- Marksman on a Volkus vantage gains Accurate (2s + Precision); play him as a deterrent with repo-dash-guard to force short-range/melta teams to eat a guard shot. Skip the vantage camp vs silent shooters (they punish a static high model) — drop to ground sightlines + smoke instead.
+- Bombard on high vantage into elites: sit up top, don't move, double-shoot 2 dice for a reliable marine kill.
+- Headtaker delivers the banner to a Volkus top floor and threatens a 0" drop-charge from conceal (ignores falling, ~6" charge threat); teams with no vertical mobility can't shift him.
+- Octarius rig-top: crowd two marines on the central pump to become near-unchargeable and near-untargetable (needs the right board side).
+- Disruptor is stronger on open than close (visibility is easier to get) — elevate him on a tall stronghold, on conceal outside charge range, to omni-scramble down long lanes.
+- Deploy out of cover for a faster, more efficient TP1 push — there's no infinite-range threat on open.
+- Board side dictates picks on Volkus: the side with a short climb to mid favours the Headtaker, the other favours a Gravis planting banner through the stronghold wall; scout the real sightlines before committing (small-stronghold tops are often poor).
+- Ladders are a Volkus staple — to reach or deny vantage and get into strongholds.
+- Skip the Servo-Thrall on Volkus when playing Dominate with a crit op that needs no actions.
+- Lean Dominate over Banner on open — Blast and body-stacking on points get punished; take Banner only where vantage genuinely protects it.
+- Canoptek: hunt vantage shots onto their tall crawlers when they misposition (five dice + a reroll, obscured or not); ladders + smokes, and you don't need the Servo-Thrall here.
+- Battleclade: they can't reach the top Volkus floor, so a lone operative can camp it for points — but the C.A.T. and Seek Light can still spot it, so it's not fully safe.
+- Celestians: only bring the Headtaker if they park silent crossbows on vantage — then climb/close and double-tap them.
+- Wolf Scouts are especially strong on Volkus — the anti-shooting board magnifies their defensive rerolls and anti-P1.
+
+### Tomb World / Gallowdark (close quarters)
+
+- Post the Marksman behind a hatchway on a good obscuring angle to stop the enemy moving big guns into a room.
+- Horde-Slayer flamer fired into a room/stronghold or a cluster behind a door does ~9 damage via the Lethal-5 Torrent 2" profile.
+- Headtaker has no climbing on Tomb World — use teleporters and hatchways for his charges instead of vantage drops.
+- Disruptor drawback on Gallowdark: you measure the omni-scramble jam *around* walls, so a ~7" melta parked behind a closed door can't be pre-jammed until the door opens.
+- Hatchway fight makes only ONE operative within 2" of the door a valid target (not everyone in range), and you can't hatchway-fight while already in control range.
+- Smoke is ignored at 2", so it won't save a corridor operative from a point-blank melta.
+- Plant Banner in a corner or tunnel-end with long sightlines and guard it easily; switch off Banner when the banner corridor has two breach points you can't defend.
+- Breacher's melta bomb only earns its slot on a guard/counteract at a door.
+
 ## Generic Advice
 
 - **HP is a resource.** Trade health for board control to enable scoring — not just bodies. Few teams can single-activation-kill a 15W 3+ model, so step out and dare them. Losing your 3rd marine without it doing anything is game-ending.
