@@ -1,3 +1,57 @@
+# Angels of Death
+
+- **Basilisk** — the channel's theorycraft authority: ktcalc/Pretentious-Plastic-Ops-backed breakpoint math, the Sharpshooter "short+long-range shooting team" thesis, and the definitive Eliminator, Aquilons and Battleclade write-ups. Cited by name as the reference ("@Basilisk did a write up"), agreed with ~100%.
+- **Regent** — the default matchup + equipment authority. Lineups for nearly every team, the "pick equipment after operatives / if-enemy-has-X-take-Y" formula (players thanked him and asked to DM), CP theory. Won an 8-man into Nemesis Claw; constantly the accepted answer.
+- **Lunarcultist** — highest-authority *theory/video* voice; the resident battle-report video author others are pointed to ("it's amazing"). Mobile evangelist, Wrath-every-TP, ignore-injury, trading philosophy, anti-Salvager guides. TehGems: "LC is right."
+- **TehGems** — author of the pinned "AoD official guide" thread referenced channel-wide ("refer to the pinned guide"). Loadout philosophy (AIW is a shooty model), chapter-tactic viability ranking, Eliminator map theory.
+- **David, Vespid Queen** — holds a World Championship ticket won with a contrarian all-shooty Intercessor list; the authority on the shooty playstyle and Hardy/Mobile pairing. Others (Nick Whitfield) ask to learn his style; Worlds credibility cited by name.
+- **Ej** — the rules + equipment reference (doctrine/ploy timing, Sharpshooter-on-Guard, Astartes double-act, "never take plain Warriors," Plant-Banner-vs-Dominate rule of thumb). His clarifications are adopted unchallenged.
+- **Joe - Vox Scream** — won the Cherokee Open (two Golden Tickets) with Hardy/Resolute AoD, then shared the podcast breakdown; his "5 attacks across the board + Tilting Shields + flexibility" summary is a headline takeaway others quote.
+
+# Battleclade
+
+- **BoldEgul** — the channel's foremost Battleclade authority and most-cited voice: the definitive matchup reports (Nemesis Claw, Vespids, Exodites, Insidiants, Raveners) and the threat-projection/zoning theory that underpins the reactive gameplan. Newcomers are told to "read @BoldEgul's report threads"; called "the most committed Battleclade player I know." Tournament results include 3rd at Ironweld (2nd was also Battleclade), 2nd at Summer Slaughter, and anchoring Battleclade at a 1st-place NOVA teams event.
+- **dave** — won the **Edmonton Open** with Battleclade (the team's first major-event win); shared a full playbook — Retrieval every game, Prioritised Acquisition as MVP, the conservative low-scoring plan, and a complete equipment breakdown. His YouTube faction guide is linked and praised channel-wide.
+- **Fohobogah** — high-volume veteran teacher: the reactive counter-punch philosophy, the 3-reciprocal-threats tempo framing, deep matchup breakdowns, and the go-to onboarding gameplans for new players.
+- **Tallen904 (Tanner)** — the deepest tactical/rules voice (Network-Counteract-vs-Guard, Technoarchaeologist usage, the medic conga line) and the TacOp ranking others adopt; won his local league.
+- **magosbiologis** — won a 20-man three-round tournament with Battleclade (20-4 Pathfinders, 13-11 Wrecka Krew, 16-8 Deathwatch); strong on Cults, Exaction, Goremongers, and Remote Access rules.
+- **MasterZaknafein** — multiple reported wins (16-12 Goremongers, 19-6 Inquisition), the medic-plus-gun "non-chargeable bubble" tech, and the vs-Raveners tac-op plan; curates the channel's resources (points people to BoldEgul's threads and dave's video).
+
+# Blooded
+
+- **kid0krew** — by a wide margin the channel's authority ("the Sage One," "papa blooded"); ~150 games and the most-cited voice in every category. Author of the much-requested Blooded overview guide (DM'd to 20+ players, credited with giving people their first wins) and cited on a Kill Team podcast. Tournament record includes a 48-player GT win (6-0), LVO 5-2, AvTT 6-1, Tacoma Open 5-1, and Worlds attendance. His token-on-Commsman, TP3-go-turn, and "play for points" lines are the community's core doctrine.
+- **LaMa_RaMa** — the second voice, a top-ranked local player who consistently corroborates and expands kid0krew's takes with long matchup and loadout write-ups (Ogryn tempo, Flenser-as-Dark-Favour, drug sequencing). Multiple 2nd/5th-place tournament finishes.
+- **Smokeygacious** — prolific matchup specialist (Fellgor, Goremongers, Death Korp, Stealth Suits) and faction-mechanics teacher; the Accurate-in-melee tip visibly changed how others valued the team, and his anti-Mandrakes advice helped a player place 6th. Took Blooded to the top real-count win rate in his league.
+- **Daylovich** — the de-facto rules authority (Gaze vs Tilting Shields/Nightmare Shroud, Callous Disregard + Obscuring, token management, marker-drop interactions); repeatedly the accepted final word, streamed on tournament coverage, 4-3 Tacoma Open.
+
+# Canoptek Circle
+
+- **Omega_Tahu** — the channel's default authority across every period: matrix line-vs-triangle theory, the per-map Tomb World node layouts (reshared to newcomers and added to the community guide), the Murderwing/Stealth-Suit/Wolf Scout game plans, "Krak Grenades are basically mandatory" (called "one of the best advices"). WCW player, won a golden ticket undefeated; his TTS YouTube videos are repeatedly cited as the learning resource.
+- **xeato** — most prolific voice later on and the strongest results: Retrieval-every-game (reported 44-1-1 season, 1st at 43- and 53-player events), Warrior gun splits, equipment and matchup plans. Answers adopted across threads; thanked for his podcast contribution.
+- **Toba (Eric)** — Molecular Breach staging, Geomancer activation timing, razor-wire-on-mid, "build a better fort," TacOp-vs-activation rule ("actually great advice"). Thanked repeatedly for detailed breakdowns.
+- **OuterSiberia** — the rules reference: node control, intervening lines, reanimate/breach limits, Volkus vs Tomb World node movement. Clarifications accepted as final; his blast-Warrior argument flipped the room ("Teslas are so back").
+- **federicofasullo** — author of the shared Canoptek Google Doc guide (collects Omega's layouts and others' tips); keep-the-Reanimator-back and two-objective matrix advice echoed; Golden Ticket finisher.
+- **DHK** — Plant Banner specialist (forward-then-reel matrix), CP budgeting, Geomancer-AP-value point others seconded; runs the DHK KillTeam Reports YouTube channel.
+
+# Celestian Insidiants
+
+- **Ignarel** — by far the most prolific voice and the channel's resident authority across every topic: roster, all matchups, ploys, equipment, the faction-rule engine, and nearly every rules-timing call. Source of the "castle vs elites / accelerate vs hordes," aggressive-Reliquarius and benediction-priority doctrine; consistently deferred to and quoted.
+- **Zackdw** — tournament player (won the AVTT final vs Cults on stream) and guide author whose written guide and podcast deep-dives are awaited channel-wide. Definitive ploy rankings, the Ravener/Stealth-Suit gameplans, Relics/Censor-bubble rulings, and win-condition math; repeatedly called "the representative."
+- **Satan's Chimpanzee (Aleksa)** — cited as one of the top Celestian pilots (6-1 at WTC, "the best Celestians in the US"); his "Disregarding Dice" interview / deep-dive video is the single most-recommended guide (widely watched, "pure gold"). Origin of the castle-bait counter-punch playstyle, the Stealth-Suit "do nothing" plan, and flamers-into-Fellgor.
+- **3milerider (Dan W)** — the highest-volume matchup and rules arbiter across the logs: Wolf Scouts/Aquilons/Raveners/Cults plans, Cremator-count heuristics, inspire order, and the psyk-out/benediction-timing rulings others adopt. Treated as an authority; his KTCalc-backed math is cited.
+- **davextreme** — the de-facto rules reference (KTCalc weapon comparisons, blast/torrent benediction sequencing, the definitive psyk-out grenade wording) who took 2nd at a tournament having never played the team; his clarifications are accepted unchallenged and thanked directly.
+- **Ben (LongLostMinis)** — high-volume teacher directly solicited for tips and repeatedly thanked: the general gameplan, TacOp selection, the Censor + Abjuror castle, and the clearest cover/obscuring mock-ups the channel references.
+- **skeletonboi** — author of the standout deployment / pre-measuring guide and a shared team-tips video; strong on Denuncia/Cremator usage, the Censor + Abjuror bait, and the aggressive-Reliquarius "energy cell" line others called genius.
+
+# Chaos Cult
+
+- **Mroracle (Clayton W)** — the strongest competitive voice; a 14-1 tournament record and the author of the go-to YouTube guide others are pointed to. The channel's Track-Enemy evangelist (converted Drago and 3milerider onto it), and the source of the ultra-passive "snake/grandpa" playstyle, the mutate-into-engagement tech, and the "needs a spreadsheet, never rely on the dice" doctrine. "If it's from Clayton it's good advice."
+- **WinterPyro** — author of the single densest all-in-one strategy guide in the channel (mutation curve, gift priorities, matchup coaching), explicitly praised and reused. A documented advice-adopted-and-won case: coached a player through the Ratlings matchup who then reported an 18-point win and thanked him directly. Co-hosted a tournament, placed 3rd.
+- **Satan's Chimpanzee (Aleksa)** — the resident standing authority: a self-described cult world champion and author of the previous-edition guide, repeatedly petitioned to write the new one. Definitive Sanctifiers/Goremongers/Fellgor game plans, the Iconarch-aura-on-Torments principle, Barbed-via-ploy, and the TacOp-pool limitation analysis; his rulings are cited as clearer than others'.
+- **Drago** — the highest-volume voice and co-authority on theory: TacOp tier-lists (Track/Steal), the deepest matchup breakdowns (Fellgor, Canoptek, Deathwatch, Celestians), and the aggressive "torpedo a Torment TP2" macro line. His reasoning is engaged with seriously and adopted ("I love this, I will steal it").
+- **3milerider (Dan W)** — the most prolific and cited voice in the later logs: detailed mutation curves, gift usage, breakpoint/climbing math, and matchup plans (Yaegirs/Stalwart, Celestians, Wreckas, Ratlings). Repeatedly deferred to and thanked for "handy tech"; strong locals record.
+- **Relaxing rn** — the most-referenced practical voice: the passive-tempo doctrine, "Devotees are a resource," Iconarch-within-4"-of-a-Torment, positioning (2" spacing, deploy-back-and-dash), and frequent rules corrections (the two-Torments-per-TP cap). Others explicitly adopt his ideas; also produces battle-report content.
+
 # Deathwatch
 
 - **Regent** — the channel's default authority. Detailed matchup lineups for nearly every team, gravis math, TacOp theory. Constant agreement ("^", "yup", "he's the goat"); took DW to LVO; thanked directly many times.
@@ -16,31 +70,6 @@
 - **Satan's Chimpanzee (Aleksa)** — respected competitive voice (WTC team captain) behind the equipment tier list (Warp Fuel & Clawed great, Bladefins garbage), the boost-as-positioning thesis, and full-send reroll play; beat a top Hierotek player as evidence.
 - **austinmma** — took 2nd place / a Worlds golden ticket as MW; his "play like Plague Marines" approach and Stealth-Suit game became reference points others cited and adopted.
 
-# Angels of Death
-
-- **Basilisk** — the channel's theorycraft authority: ktcalc/Pretentious-Plastic-Ops-backed breakpoint math, the Sharpshooter "short+long-range shooting team" thesis, and the definitive Eliminator, Aquilons and Battleclade write-ups. Cited by name as the reference ("@Basilisk did a write up"), agreed with ~100%.
-- **Regent** — the default matchup + equipment authority. Lineups for nearly every team, the "pick equipment after operatives / if-enemy-has-X-take-Y" formula (players thanked him and asked to DM), CP theory. Won an 8-man into Nemesis Claw; constantly the accepted answer.
-- **Lunarcultist** — highest-authority *theory/video* voice; the resident battle-report video author others are pointed to ("it's amazing"). Mobile evangelist, Wrath-every-TP, ignore-injury, trading philosophy, anti-Salvager guides. TehGems: "LC is right."
-- **TehGems** — author of the pinned "AoD official guide" thread referenced channel-wide ("refer to the pinned guide"). Loadout philosophy (AIW is a shooty model), chapter-tactic viability ranking, Eliminator map theory.
-- **David, Vespid Queen** — holds a World Championship ticket won with a contrarian all-shooty Intercessor list; the authority on the shooty playstyle and Hardy/Mobile pairing. Others (Nick Whitfield) ask to learn his style; Worlds credibility cited by name.
-- **Ej** — the rules + equipment reference (doctrine/ploy timing, Sharpshooter-on-Guard, Astartes double-act, "never take plain Warriors," Plant-Banner-vs-Dominate rule of thumb). His clarifications are adopted unchallenged.
-- **Joe - Vox Scream** — won the Cherokee Open (two Golden Tickets) with Hardy/Resolute AoD, then shared the podcast breakdown; his "5 attacks across the board + Tilting Shields + flexibility" summary is a headline takeaway others quote.
-
-# Blooded
-
-- **kid0krew** — by a wide margin the channel's authority ("the Sage One," "papa blooded"); ~150 games and the most-cited voice in every category. Author of the much-requested Blooded overview guide (DM'd to 20+ players, credited with giving people their first wins) and cited on a Kill Team podcast. Tournament record includes a 48-player GT win (6-0), LVO 5-2, AvTT 6-1, Tacoma Open 5-1, and Worlds attendance. His token-on-Commsman, TP3-go-turn, and "play for points" lines are the community's core doctrine.
-- **LaMa_RaMa** — the second voice, a top-ranked local player who consistently corroborates and expands kid0krew's takes with long matchup and loadout write-ups (Ogryn tempo, Flenser-as-Dark-Favour, drug sequencing). Multiple 2nd/5th-place tournament finishes.
-- **Smokeygacious** — prolific matchup specialist (Fellgor, Goremongers, Death Korp, Stealth Suits) and faction-mechanics teacher; the Accurate-in-melee tip visibly changed how others valued the team, and his anti-Mandrakes advice helped a player place 6th. Took Blooded to the top real-count win rate in his league.
-- **Daylovich** — the de-facto rules authority (Gaze vs Tilting Shields/Nightmare Shroud, Callous Disregard + Obscuring, token management, marker-drop interactions); repeatedly the accepted final word, streamed on tournament coverage, 4-3 Tacoma Open.
-
-# Chaos Cult
-
-- **Mroracle (Clayton W)** — the strongest competitive voice; a 14-1 tournament record and the author of the go-to YouTube guide others are pointed to. The channel's Track-Enemy evangelist (converted Drago and 3milerider onto it), and the source of the ultra-passive "snake/grandpa" playstyle, the mutate-into-engagement tech, and the "needs a spreadsheet, never rely on the dice" doctrine. "If it's from Clayton it's good advice."
-- **WinterPyro** — author of the single densest all-in-one strategy guide in the channel (mutation curve, gift priorities, matchup coaching), explicitly praised and reused. A documented advice-adopted-and-won case: coached a player through the Ratlings matchup who then reported an 18-point win and thanked him directly. Co-hosted a tournament, placed 3rd.
-- **Satan's Chimpanzee (Aleksa)** — the resident standing authority: a self-described cult world champion and author of the previous-edition guide, repeatedly petitioned to write the new one. Definitive Sanctifiers/Goremongers/Fellgor game plans, the Iconarch-aura-on-Torments principle, Barbed-via-ploy, and the TacOp-pool limitation analysis; his rulings are cited as clearer than others'.
-- **Drago** — the highest-volume voice and co-authority on theory: TacOp tier-lists (Track/Steal), the deepest matchup breakdowns (Fellgor, Canoptek, Deathwatch, Celestians), and the aggressive "torpedo a Torment TP2" macro line. His reasoning is engaged with seriously and adopted ("I love this, I will steal it").
-- **3milerider (Dan W)** — the most prolific and cited voice in the later logs: detailed mutation curves, gift usage, breakpoint/climbing math, and matchup plans (Yaegirs/Stalwart, Celestians, Wreckas, Ratlings). Repeatedly deferred to and thanked for "handy tech"; strong locals record.
-- **Relaxing rn** — the most-referenced practical voice: the passive-tempo doctrine, "Devotees are a resource," Iconarch-within-4"-of-a-Torment, positioning (2" spacing, deploy-back-and-dash), and frequent rules corrections (the two-Torments-per-TP cap). Others explicitly adopt his ideas; also produces battle-report content.
 # Raveners
 
 - **Lunarcultist** — the channel's fundamentals authority. Author of the pinned Raveners guide + "Lunar's Fundamentals" checklist, battle-report videos, and a Patreon; reports a >90% win rate and 6/0 vs Deathwatch. Source of the rotation doctrine, the home→mid tunnel line, "don't die," the Crit-Op/deny-VP identity, and "play Dominate until you score 0–1, then look at Sweep." Repeatedly called a GOAT; multiple newer players credit his guides for wins.
@@ -50,31 +79,3 @@
 - **Kill Team NOVA (Ben)** — a NOVA/WCW tournament organizer and the channel's foundational strategist. Origin of the "late-game team / dictate the action" framing others echo verbatim, the Kill-Op-strength thesis, and a large share of high-level matchup reads and rulings; treated as an authority and moderator.
 - **Orein** — the strongest early competitive voice, with back-to-back local wins (including beating an LVO champion) and LVO attendance. Set the deny-VP identity, the tunnel-run heuristics, the deploy-2-up/3-down split, and the definitive Cults/Blooded/Goremonger/Aquilon lines; newcomers are pointed to his posts as the benchmark.
 - **Daylovich** — the de-facto rules authority (burrow/marker interactions, tunnel-fit under terrain, Tremorscythe interrupt timing, Synaptic Link thresholds), plus high-volume matchup and equipment guidance. Repeatedly the accepted final word and directly thanked.
-
-# Battleclade
-
-- **BoldEgul** — the channel's foremost Battleclade authority and most-cited voice: the definitive matchup reports (Nemesis Claw, Vespids, Exodites, Insidiants, Raveners) and the threat-projection/zoning theory that underpins the reactive gameplan. Newcomers are told to "read @BoldEgul's report threads"; called "the most committed Battleclade player I know." Tournament results include 3rd at Ironweld (2nd was also Battleclade), 2nd at Summer Slaughter, and anchoring Battleclade at a 1st-place NOVA teams event.
-- **dave** — won the **Edmonton Open** with Battleclade (the team's first major-event win); shared a full playbook — Retrieval every game, Prioritised Acquisition as MVP, the conservative low-scoring plan, and a complete equipment breakdown. His YouTube faction guide is linked and praised channel-wide.
-- **Fohobogah** — high-volume veteran teacher: the reactive counter-punch philosophy, the 3-reciprocal-threats tempo framing, deep matchup breakdowns, and the go-to onboarding gameplans for new players.
-- **Tallen904 (Tanner)** — the deepest tactical/rules voice (Network-Counteract-vs-Guard, Technoarchaeologist usage, the medic conga line) and the TacOp ranking others adopt; won his local league.
-- **magosbiologis** — won a 20-man three-round tournament with Battleclade (20-4 Pathfinders, 13-11 Wrecka Krew, 16-8 Deathwatch); strong on Cults, Exaction, Goremongers, and Remote Access rules.
-- **MasterZaknafein** — multiple reported wins (16-12 Goremongers, 19-6 Inquisition), the medic-plus-gun "non-chargeable bubble" tech, and the vs-Raveners tac-op plan; curates the channel's resources (points people to BoldEgul's threads and dave's video).
-
-# Celestian Insidiants
-
-- **Ignarel** — by far the most prolific voice and the channel's resident authority across every topic: roster, all matchups, ploys, equipment, the faction-rule engine, and nearly every rules-timing call. Source of the "castle vs elites / accelerate vs hordes," aggressive-Reliquarius and benediction-priority doctrine; consistently deferred to and quoted.
-- **Zackdw** — tournament player (won the AVTT final vs Cults on stream) and guide author whose written guide and podcast deep-dives are awaited channel-wide. Definitive ploy rankings, the Ravener/Stealth-Suit gameplans, Relics/Censor-bubble rulings, and win-condition math; repeatedly called "the representative."
-- **Satan's Chimpanzee (Aleksa)** — cited as one of the top Celestian pilots (6-1 at WTC, "the best Celestians in the US"); his "Disregarding Dice" interview / deep-dive video is the single most-recommended guide (widely watched, "pure gold"). Origin of the castle-bait counter-punch playstyle, the Stealth-Suit "do nothing" plan, and flamers-into-Fellgor.
-- **3milerider (Dan W)** — the highest-volume matchup and rules arbiter across the logs: Wolf Scouts/Aquilons/Raveners/Cults plans, Cremator-count heuristics, inspire order, and the psyk-out/benediction-timing rulings others adopt. Treated as an authority; his KTCalc-backed math is cited.
-- **davextreme** — the de-facto rules reference (KTCalc weapon comparisons, blast/torrent benediction sequencing, the definitive psyk-out grenade wording) who took 2nd at a tournament having never played the team; his clarifications are accepted unchallenged and thanked directly.
-- **Ben (LongLostMinis)** — high-volume teacher directly solicited for tips and repeatedly thanked: the general gameplan, TacOp selection, the Censor + Abjuror castle, and the clearest cover/obscuring mock-ups the channel references.
-- **skeletonboi** — author of the standout deployment / pre-measuring guide and a shared team-tips video; strong on Denuncia/Cremator usage, the Censor + Abjuror bait, and the aggressive-Reliquarius "energy cell" line others called genius.
-
-# Canoptek Circle
-
-- **Omega_Tahu** — the channel's default authority across every period: matrix line-vs-triangle theory, the per-map Tomb World node layouts (reshared to newcomers and added to the community guide), the Murderwing/Stealth-Suit/Wolf Scout game plans, "Krak Grenades are basically mandatory" (called "one of the best advices"). WCW player, won a golden ticket undefeated; his TTS YouTube videos are repeatedly cited as the learning resource.
-- **xeato** — most prolific voice later on and the strongest results: Retrieval-every-game (reported 44-1-1 season, 1st at 43- and 53-player events), Warrior gun splits, equipment and matchup plans. Answers adopted across threads; thanked for his podcast contribution.
-- **Toba (Eric)** — Molecular Breach staging, Geomancer activation timing, razor-wire-on-mid, "build a better fort," TacOp-vs-activation rule ("actually great advice"). Thanked repeatedly for detailed breakdowns.
-- **OuterSiberia** — the rules reference: node control, intervening lines, reanimate/breach limits, Volkus vs Tomb World node movement. Clarifications accepted as final; his blast-Warrior argument flipped the room ("Teslas are so back").
-- **federicofasullo** — author of the shared Canoptek Google Doc guide (collects Omega's layouts and others' tips); keep-the-Reanimator-back and two-objective matrix advice echoed; Golden Ticket finisher.
-- **DHK** — Plant Banner specialist (forward-then-reel matrix), CP budgeting, Geomancer-AP-value point others seconded; runs the DHK KillTeam Reports YouTube channel.

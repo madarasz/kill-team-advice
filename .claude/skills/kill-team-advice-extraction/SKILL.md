@@ -351,7 +351,9 @@ existing format there — an H1 with the team name, then one `-` bullet per expe
 ```
 
 Keep one line per expert. If `experts.md` already has a block for this team, replace it;
-otherwise append a new one.
+otherwise insert a new one. Team blocks are kept in **alphabetical order by team name** —
+insert a new block at its sorted position, not at the end. Separate blocks with one blank
+line.
 
 ## Delivering
 
@@ -371,5 +373,6 @@ Finally, add (or update) the team's entry in the repo-root **`README.md`** under
   of the earliest and latest message), formatted `YYYY.MM.DD`. Derive them from the source
   JSONL `ts` fields (or the transcript/manifest range) — not today's date. Leave the
   trailing `More factions to come.` line in place.
-- If the team already has a line, replace it (refresh the date range); otherwise append a
-  new bullet to the list.
+- If the team already has a line, replace it (refresh the date range); otherwise insert a
+  new bullet. The list is kept in **alphabetical order by team name** — insert a new bullet
+  at its sorted position, not at the end.
