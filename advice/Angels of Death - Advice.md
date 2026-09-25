@@ -111,6 +111,35 @@
 - **Transhuman Physiology** — can be used to make a cover save vs a crit; a big reason Hardy isn't essential (tank the first big hit per TP for 1 CP).
 - **Adjust Doctrine — key flexibility tool. [strong consensus]** Requires Combat Doctrine already played this TP (as a strategy ploy, or free via the Captain); then swaps doctrine again during a friendly operative's activation (not during a counteraction, retaliation, or the opponent's activation) instead of locking it in for the whole TP back in the strategy phase. The Captain plays it for free, letting you delay committing to a doctrine until you've seen how the TP is going — but his free option is mutually exclusive with a free secondary-tactic swap or another free firefight ploy per activation, so pick one. Sergeants can also pay 1 CP for it once the Captain is dead. One of AoD's few built-in melee counters alongside Tilting Shields.
 
+## Terrain
+
+### Volkus / Octarius (open)
+
+- **Octarius is a shooting gallery — it turns the whole team shooty. [strong consensus]** All-light-cover, long lanes and near-DZ vantages make the Eliminator Sniper top-shelf and reward bringing every gun; stage on vantage and start out-shooting from TP1.
+- **Volkus is dense heavy terrain, so long-range shooting is worth less than it looks.** The board's ubiquitous heavy-cover nubs (they count as heavy, not light) break sightlines and can deny a shot outright — plan around them, not through them.
+- **The Eliminator Sniper is a map-and-side-gated pick on Volkus, not a default. [heavily debated]** He only earns his slot where sightlines let him deny an objective or enemy vantage (covering the centre from cover on Volkus 4; the seek-light-heavy Volkus 6 red side); on congested layouts bring a second gun or another Assault Intercessor Warrior. A minority rate him higher because obscuring is so easy to set up on Volkus that ignore-obscuring makes "nowhere safe" — consensus still keeps him situational here.
+- **Stage the Heavy Intercessor Gunner on vantage into light cover for near-guaranteed early kills** (Accurate + Balanced + Purity Seals). Walk him up with ladders + Smoke — an obscured 18-wound body in cover is almost unshiftable, and he flushes models out of the dense terrain the Eliminator can't reach.
+- **Auspex is close to an auto-take on Volkus** because obscuring is so easy to establish there.
+- **Raveners: banner on a vantage and base-block them with 40mm bases.** Most of their ploys interact with the tunnel and their bases are too big to land on vantage, so the high ground leaves them stranded — the exact opposite of the close-board plan below.
+- **A static Stalker bolt-rifle Intercessor Warrior is especially punished on Volkus** — opponents play angles that force you onto the move-only profile.
+- **Respect enemy vantage and long-lane shooting on Volkus** — climb-ignoring vantage shooters (they skip the first 2" of a climb) and Accurate/Severe burst guns are far more dangerous here.
+
+### Tomb World / Gallowdark (close quarters)
+
+- **The Eliminator Sniper dominates close boards. [strong consensus]** Seek Light + Silent + Ignore Obscuring let one concealed model behind a door lock down a whole room or long corridor with an objective on it; close-board objectives are Light cover at best, so Seek Light simply switches their cover off. Take both him and the Heavy Intercessor Gunner here.
+- **Guard is a close-board mechanic that unlocks the team's best plays.** Eliminator procs on Guard (near auto-take if you only played Tomb World); a Heavy Intercessor Gunner on Guard over an objective or at the mouth of a long hallway is a huge deterrent (charge in, eat a point-blank shot); an Eliminator on Guard chains repo + dash + Guard into a ~10" move-and-shoot.
+- **Auto Bolt Rifle / Torrent is the close-quarters rifle profile.** The 1" Torrent catches clustered models, Blast/Torrent gain Lethal 5+ in strongholds, and it beats both the drone-redirect and normal saves.
+- **Teleporter-pad tech (close boards only).** Teleport the Heavy Intercessor Gunner onto a pad to arrive blasting; Guard a melee body on the pad to punish an enemy melta teleport-and-shoot; drop a teleporter-pad Plant Banner into the mid-objective room, where it's very hard to clear through a single door.
+- **Move-block a banner or objective with two 40mm bodies on Guard** to deny it.
+- **The Heavy Intercessor Gunner plugs a breach or hatchway** — 18 wounds of body blocking a breach point wins games.
+- **Light barricades are strong indoors** — they block 2" of movement and let you sit on a point or plant a banner in cover (and the Eliminator can Seek Light that cover off anyway).
+- **Stage on breach points with Resolute** — an Assault Intercessor Warrior on Guard at a breach tanks it and fights back without fearing the stun; the Grenadier breaches for 1 AP, so deploy him where he can open breach points for the rest of the team.
+- **Mines and razor wire close-board placement** — a mine in the teleporter corridor; razor wire to deny mid-table terrain, then flank while a guarding gunner holds the middle.
+- **The Captain's 40mm base struggles in tight blocking terrain. [contested]** A minority swap him for the Assault Intercessor Sergeant (smaller base, double heavy bolt pistol) on the most terrain-dense maps; most keep the Captain regardless, since tactics lock before you see the board.
+- **Raveners: you can't vantage-base-block them here, so shoot them down at close range** — put 10–14 damage through with Assault Intercessors (they save on 5s) so they can't melee you. Opposite method to Volkus.
+- **Murderwing flips in your favor on Tomb World / Into the Dark. [strong consensus]** Guard punishes their last-activation melta play (they eat a heavy bolter / Mortis shot on the way in), and a guarded Eliminator explodes the skysear on approach since it can't get obscured. Play the matchup here whenever you can.
+- **Door and breach control fundamentals.** A model tucked at an open hatch can't simply be charged (the wall blocks control range) yet can "door-fight" anything within 2"; opening a closed hatch instantly puts you in control range and forces a fight. Keep closing doors while ahead (repo-close-dash to break LoS) to waste the opponent's APL and protect Dominate/Tac leads.
+
 ## Generic Advice
 
 - **Play aggressive; your gameplan is to run at things and kill them.** It's easy to be un-chargeable on marines when you want to be, so dictate when you're in melee. Assault Intercessors are shoot-first models with chainswords for when charged — the team was never truly melee-primary.
@@ -120,5 +149,3 @@
 - **Charge-hug** expended enemies (empty-charge to deny their shot, then counteract-fight or Mobile-out with Wrath) — strong vs shooty teams; **counterproductive vs melee teams** (gives combat support) and vs melee-competent gunlines (Yaegirs' plasma knives), and it slows your scoring if overdone.
 - **Come with a plan and study the opponent's key rules.** You'll lose the first game into an unfamiliar team; tailor operatives/tactics/equipment to their weaknesses.
 - **Line of sight is drawn to any part of the model** — banners, guns and pointing swords stick out of cover and make you shootable. Position (and magnetise) accordingly.
-- **Door control on Tomb World / Gallowdark:** when ahead, keep closing doors (repo-close-dash to break LoS and hatch-fight) to lock down an area and protect Dominate/Tac leads — it wastes the opponent's APL to reopen.
-- **Terrain shapes the meta:** Octarius/Volkus-light maps (flat, light-terrain vantages, long lanes) push toward shooting and are excellent for AoD — the Eliminator denies enemy vantage for free.

@@ -50,3 +50,31 @@
 - **Kill Team NOVA (Ben)** — a NOVA/WCW tournament organizer and the channel's foundational strategist. Origin of the "late-game team / dictate the action" framing others echo verbatim, the Kill-Op-strength thesis, and a large share of high-level matchup reads and rulings; treated as an authority and moderator.
 - **Orein** — the strongest early competitive voice, with back-to-back local wins (including beating an LVO champion) and LVO attendance. Set the deny-VP identity, the tunnel-run heuristics, the deploy-2-up/3-down split, and the definitive Cults/Blooded/Goremonger/Aquilon lines; newcomers are pointed to his posts as the benchmark.
 - **Daylovich** — the de-facto rules authority (burrow/marker interactions, tunnel-fit under terrain, Tremorscythe interrupt timing, Synaptic Link thresholds), plus high-volume matchup and equipment guidance. Repeatedly the accepted final word and directly thanked.
+
+# Battleclade
+
+- **BoldEgul** — the channel's foremost Battleclade authority and most-cited voice: the definitive matchup reports (Nemesis Claw, Vespids, Exodites, Insidiants, Raveners) and the threat-projection/zoning theory that underpins the reactive gameplan. Newcomers are told to "read @BoldEgul's report threads"; called "the most committed Battleclade player I know." Tournament results include 3rd at Ironweld (2nd was also Battleclade), 2nd at Summer Slaughter, and anchoring Battleclade at a 1st-place NOVA teams event.
+- **dave** — won the **Edmonton Open** with Battleclade (the team's first major-event win); shared a full playbook — Retrieval every game, Prioritised Acquisition as MVP, the conservative low-scoring plan, and a complete equipment breakdown. His YouTube faction guide is linked and praised channel-wide.
+- **Fohobogah** — high-volume veteran teacher: the reactive counter-punch philosophy, the 3-reciprocal-threats tempo framing, deep matchup breakdowns, and the go-to onboarding gameplans for new players.
+- **Tallen904 (Tanner)** — the deepest tactical/rules voice (Network-Counteract-vs-Guard, Technoarchaeologist usage, the medic conga line) and the TacOp ranking others adopt; won his local league.
+- **magosbiologis** — won a 20-man three-round tournament with Battleclade (20-4 Pathfinders, 13-11 Wrecka Krew, 16-8 Deathwatch); strong on Cults, Exaction, Goremongers, and Remote Access rules.
+- **MasterZaknafein** — multiple reported wins (16-12 Goremongers, 19-6 Inquisition), the medic-plus-gun "non-chargeable bubble" tech, and the vs-Raveners tac-op plan; curates the channel's resources (points people to BoldEgul's threads and dave's video).
+
+# Celestian Insidiants
+
+- **Ignarel** — by far the most prolific voice and the channel's resident authority across every topic: roster, all matchups, ploys, equipment, the faction-rule engine, and nearly every rules-timing call. Source of the "castle vs elites / accelerate vs hordes," aggressive-Reliquarius and benediction-priority doctrine; consistently deferred to and quoted.
+- **Zackdw** — tournament player (won the AVTT final vs Cults on stream) and guide author whose written guide and podcast deep-dives are awaited channel-wide. Definitive ploy rankings, the Ravener/Stealth-Suit gameplans, Relics/Censor-bubble rulings, and win-condition math; repeatedly called "the representative."
+- **Satan's Chimpanzee (Aleksa)** — cited as one of the top Celestian pilots (6-1 at WTC, "the best Celestians in the US"); his "Disregarding Dice" interview / deep-dive video is the single most-recommended guide (widely watched, "pure gold"). Origin of the castle-bait counter-punch playstyle, the Stealth-Suit "do nothing" plan, and flamers-into-Fellgor.
+- **3milerider (Dan W)** — the highest-volume matchup and rules arbiter across the logs: Wolf Scouts/Aquilons/Raveners/Cults plans, Cremator-count heuristics, inspire order, and the psyk-out/benediction-timing rulings others adopt. Treated as an authority; his KTCalc-backed math is cited.
+- **davextreme** — the de-facto rules reference (KTCalc weapon comparisons, blast/torrent benediction sequencing, the definitive psyk-out grenade wording) who took 2nd at a tournament having never played the team; his clarifications are accepted unchallenged and thanked directly.
+- **Ben (LongLostMinis)** — high-volume teacher directly solicited for tips and repeatedly thanked: the general gameplan, TacOp selection, the Censor + Abjuror castle, and the clearest cover/obscuring mock-ups the channel references.
+- **skeletonboi** — author of the standout deployment / pre-measuring guide and a shared team-tips video; strong on Denuncia/Cremator usage, the Censor + Abjuror bait, and the aggressive-Reliquarius "energy cell" line others called genius.
+
+# Canoptek Circle
+
+- **Omega_Tahu** — the channel's default authority across every period: matrix line-vs-triangle theory, the per-map Tomb World node layouts (reshared to newcomers and added to the community guide), the Murderwing/Stealth-Suit/Wolf Scout game plans, "Krak Grenades are basically mandatory" (called "one of the best advices"). WCW player, won a golden ticket undefeated; his TTS YouTube videos are repeatedly cited as the learning resource.
+- **xeato** — most prolific voice later on and the strongest results: Retrieval-every-game (reported 44-1-1 season, 1st at 43- and 53-player events), Warrior gun splits, equipment and matchup plans. Answers adopted across threads; thanked for his podcast contribution.
+- **Toba (Eric)** — Molecular Breach staging, Geomancer activation timing, razor-wire-on-mid, "build a better fort," TacOp-vs-activation rule ("actually great advice"). Thanked repeatedly for detailed breakdowns.
+- **OuterSiberia** — the rules reference: node control, intervening lines, reanimate/breach limits, Volkus vs Tomb World node movement. Clarifications accepted as final; his blast-Warrior argument flipped the room ("Teslas are so back").
+- **federicofasullo** — author of the shared Canoptek Google Doc guide (collects Omega's layouts and others' tips); keep-the-Reanimator-back and two-objective matrix advice echoed; Golden Ticket finisher.
+- **DHK** — Plant Banner specialist (forward-then-reel matrix), CP budgeting, Geomancer-AP-value point others seconded; runs the DHK KillTeam Reports YouTube channel.
