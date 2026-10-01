@@ -70,6 +70,15 @@
 - **Satan's Chimpanzee (Aleksa)** — respected competitive voice (WTC team captain) behind the equipment tier list (Warp Fuel & Clawed great, Bladefins garbage), the boost-as-positioning thesis, and full-send reroll play; beat a top Hierotek player as evidence.
 - **austinmma** — took 2nd place / a Worlds golden ticket as MW; his "play like Plague Marines" approach and Stealth-Suit game became reference points others cited and adopted.
 
+# Plague Marines
+
+- **Toba (Eric)** — the most prolific voice in the early logs: the cagey TP1–2 / push TP3 doctrine, the Champion and Fighter combos, equipment and TacOp rules of thumb, and many rules calls ("this question gets asked about every week"). Endorsed ("very solid advice"), thanked repeatedly, and players report tournament results with his plans.
+- **Highmastet** — the strongest later voice: operative-role guide, deployment splits, the Heavy Gunner + Curse of Rot "pseudo-pierce" line, and long Kasrkin/Stealth Suit plans. Won a 3-0 event and is a Golden Ticket finalist; his write-ups are called "super in depth and really helpful", and a player won a tournament after following them.
+- **Ol' Slappy ("Orion")** — went 6-4 at Worlds with Plague Marines; author of the Deathwatch Heavy Gunner plan and the Canoptek plan, both widely adopted (a player won using the Canoptek plan). Called "top dog on tips".
+- **DigitalDebonair** — very high volume across all chunks: equipment guide, Murderwing/Celestian/Aquilons/Wolf Scouts plans, and Malignant Plaguecaster rules. His Aquilons plan produced a 17-6 win for another player; thanked repeatedly.
+- **Lunarcultist** — author of the "Plague Marine Coaching" YouTube series, recommended across the channel; his Kroot and Scout Squad advice is thanked.
+- **Shawn the Lugger** — source of the cagey playstyle via his Vox Cascadia guide, which players cite and re-listen to; called a "genius".
+
 # Raveners
 
 - **Lunarcultist** — the channel's fundamentals authority. Author of the pinned Raveners guide + "Lunar's Fundamentals" checklist, battle-report videos, and a Patreon; reports a >90% win rate and 6/0 vs Deathwatch. Source of the rotation doctrine, the home→mid tunnel line, "don't die," the Crit-Op/deny-VP identity, and "play Dominate until you score 0–1, then look at Sweep." Repeatedly called a GOAT; multiple newer players credit his guides for wins.

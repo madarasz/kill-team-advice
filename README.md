@@ -16,6 +16,7 @@ into a single skimmable page.
 - [Chaos Cult](advice/Chaos%20Cult%20-%20Advice.md) - 2025.01.27 - 2026.09.12
 - [Deathwatch](advice/Deathwatch%20-%20Advice.md) - 2026.04.23 - 2026.09.11
 - [Murderwing](advice/Murderwing%20-%20Advice.md) - 2026.04.12 - 2026.09.12
+- [Plague Marines](advice/Plague%20Marines%20-%20Advice.md) - 2025.10.30 - 2026.10.01
 - [Raveners](advice/Raveners%20-%20Advice.md) - 2025.03.27 - 2026.09.14
 
 More factions to come.

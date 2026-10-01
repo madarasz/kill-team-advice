@@ -2,11 +2,12 @@
 """Fetch a Kill Team's OFFICIAL "UPDATE LOG" from Games Workshop and print it
 with colour + strikethrough preserved.
 
-Why this exists: the `madarasz/datacard-manager` history occasionally contains a
-"revert" — a card's text jumps back to an earlier state without a bdsVersion
-bump. That is usually a datacard-data error, but "usually" isn't good enough, so
-this script checks the change against GW's own rules PDF, which is the source of
-truth.
+Why this exists: the `madarasz/datacard-manager` history is a fan-made mirror. It
+starts mid-history (early BDS changes are bare `stamp-only` stamps with no text
+to diff) and occasionally contains a "revert" — a card's text jumps back to an
+earlier state without a bdsVersion bump. GW's own rules PDF is the source of
+truth, so the get-bds-changes skill ALWAYS runs this alongside bds_changes.py
+and consolidates the two.
 
 Two extraction subtleties this handles that naive tools get wrong:
 
@@ -113,6 +114,33 @@ def is_struck(span, segs):
     return False
 
 
+def is_gallery_heading(orange_upper):
+    """True for the orange heading that opens the datacard gallery
+    (`PLAGUE MARINE OPERATIVES`, `KILL TEAM`, ...).
+
+    Errata headings inside the log also contain END words, but always in the
+    `TYPE, NAME` form (`CHAMPION, BOMBARDIER & WARRIOR OPERATIVES, *TOXIC`,
+    `HEAVY GUNNER & FIGHTER OPERATIVES, WEAPONS LIST`). So a gallery heading must
+    END with an END word and contain no comma. A plain substring test once cut
+    the Plague Marines log off at its first entry and lost PREVIOUS ERRATAS.
+    """
+    h = orange_upper.strip().rstrip("\x08").strip()
+    if not h or "," in h:
+        return False
+    return any(h == e or h.endswith(" " + e) for e in END_HEADINGS)
+
+
+def is_log_page(d):
+    """True if a page dict carries update-log markers (see extract)."""
+    for block in d["blocks"]:
+        for line in block.get("lines", []):
+            o = "".join(s["text"] for s in line["spans"]
+                        if s["color"] == ORANGE).upper()
+            if "," in o or any(k in o for k in ("ERRATA", "COMMENTAR", "UPDATE LOG")):
+                return True
+    return False
+
+
 def tag(span, segs):
     """Return the text wrapped with markers for colour + strikethrough."""
     t = span["text"]
@@ -141,9 +169,14 @@ def extract(path):
         page = doc[pno]
         if not started and "UPDATE LOG" not in page.get_text():
             continue
+        d = page.get_text("dict")
+        # A page after the first continues the log only if it looks like one:
+        # an ERRATA/COMMENTARY heading or a `TYPE, NAME` errata heading. This
+        # stops on lore/art pages that sit between the log and the gallery.
+        if started and not is_log_page(d):
+            break
         started = True
         segs = horizontal_segments(page)
-        d = page.get_text("dict")
         for block in d["blocks"]:
             for line in block.get("lines", []):
                 spans = line["spans"]
@@ -157,7 +190,7 @@ def extract(path):
                 orange_upper = "".join(
                     s["text"] for s in spans if s["color"] == ORANGE
                 ).strip().upper()
-                if orange_upper and any(h in orange_upper for h in END_HEADINGS):
+                if is_gallery_heading(orange_upper):
                     doc.close()
                     return "\n".join(lines_out)
                 # Mark orange headings so entry boundaries are visible.
